@@ -1,14 +1,29 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'Fontin';
+  src: url('./assets/fonts/Fontin-Regular.ttf') format('truetype');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+body {
+  background: #000 no-repeat top center;
+  margin: 0;
+  color: rgb(163, 141, 109);
+  font-family: "Fontin";
 }
+
+#mainBody {
+  background-color: #0a0a0a;
+  width: 910px;
+  margin: 25px auto 20px;
+  border: 1px solid #a38d6d;
+  padding: 25px;
+  border-radius: 3px;
+  color: #a38d6d;
+  min-height: 1200px;
+  display: block;
+}
+
+#Filtereditor {
+  color: #a38d6d;
+  display: block;
+}
+
