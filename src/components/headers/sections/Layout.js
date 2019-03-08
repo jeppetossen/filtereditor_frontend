@@ -2,6 +2,14 @@ import React from 'react';
 import './Layout.scss';
 import data from '../../../api/headers.json';
 
+function AccordionCondition(props) {
+    if (props.editor === "True") {
+
+    } else if (props.editor === "False") {
+
+    }
+}
+
 function SubSections(props) {
     return (
         <div>
@@ -9,7 +17,7 @@ function SubSections(props) {
                 <label key={props.id} className="SubsectionLabel">{props.name}</label>
             </div>
             <div className="SubsectionBlockContent closed">
-
+                <AccordionCondition editor=""/>
             </div>
         </div>
     )
@@ -39,10 +47,8 @@ function VisualEditor(props) {
                             <button className="VisualEditor_ComboBoxRight_Button VisualButton">Icon</button>
                             <button className="VisualEditor_ComboBoxRight_Button VisualButton">Beam</button>
                         </div>
-                        <div id="VisualEditor_ComboBoxLeft_{{ block.id }}"
-                             className="VisualEditor_ComboBoxLeft">
-                            <div id="VisualEditor_ComboBoxText_{{ block.id }}"
-                                 className="VisualEditor_ComboBoxColorPickerDiv">
+                        <div className="VisualEditor_ComboBoxLeft">
+                            <div className="VisualEditor_ComboBoxColorPickerDiv">
                                 <div className="VisualEditor_ComboBoxEnabledColor selectedSocket"></div>
                                 <label className="VisualEditor_ComboBoxLeftLabel">TX</label>
                                 <input type="text" className="SpectrumColorPicker" style="display: none;" />
@@ -91,7 +97,7 @@ function VisualEditor(props) {
                     </div>
                 </form>
             </div>
-            <br id="VisualEditorBreak_{{ block.id }}" />
+            <br />
         </div>
     )
 }
