@@ -2,110 +2,110 @@
   "Sections": [
     {
       "name": "General",
-      "id": 1,
+      "uid": 0,
       "Subsections": [
         {
           "name": "Vendor Recipes",
-          "id": 1,
+          "uid": 1,
           "editor": "False",
           "BlockSections": [
             {
               "name": "Chromatic Orb",
-              "id": 1,
+              "uid": 2,
               "Blocks": [
                 {
                   "name": "Endgame: Small (2x2)",
-                  "id": 1
+                  "uid": 3
                 },
                 {
                   "name": "Endgame: Small (1x3, 1x4)",
-                  "id": 2
+                  "uid": 4
                 },
                 {
                   "name": "Endgame: Large (2x3)",
-                  "id": 3
+                  "uid": 5
                 },
                 {
                   "name": "Endgame: Large (2x4)",
-                  "id": 4
+                  "uid": 6
                 }
               ]
             },
             {
               "name": "Jeweller Orbs",
-              "id": 2,
+              "uid": 7,
               "Blocks": [
                 {
                   "name": "6 Sockets",
-                  "id": 5
+                  "uid": 8
                 },
                 {
                   "name": "6 Sockets + 5 Links",
-                  "id": 6
+                  "uid": 9
                 }
               ]
             },
             {
               "name": "Gemcutter's Prism",
-              "id": 3,
+              "uid": 10,
               "Blocks": [
                 {
                   "name": "20% Quality Gems",
-                  "id": 7
+                  "uid": 11
                 },
                 {
                   "name": "Mid Quality Gems",
-                  "id": 8
+                  "uid": 12
                 },
                 {
                   "name": "Low Quality Gems",
-                  "id": 9
+                  "uid": 13
                 }
               ]
             },
             {
               "name": "Cartographer's Chisel",
-              "id": 4,
+              "uid": 14,
               "Blocks": [
                 {
                   "name": "Hammers: 20% Quality",
-                  "id": 10
+                  "uid": 15
                 },
                 {
                   "name": "Hammers: 15% Or More Quality",
-                  "id": 11
+                  "uid": 16
                 },
                 {
                   "name": "Hammers: 0-15% Quality",
-                  "id": 12
+                  "uid": 17
                 }
               ]
             },
             {
               "name": "Glassblower's Bauble",
-              "id": 5,
+              "uid": 18,
               "Blocks": [
                 {
                   "name": "Endgame: 20% Quality Flasks",
-                  "id": 13
+                  "uid": 19
                 },
                 {
                   "name": "Endgame: Mid Quality Flasks",
-                  "id": 14
+                  "uid": 20
                 },
                 {
                   "name": "Endgame: Low Quality Flasks",
-                  "id": 15
+                  "uid": 21
                 }
               ]
             },
             {
               "name": "Loreweave",
-              "id": 6,
+              "uid": 22,
               "Blocks": [
                 {
                   "name": "Loreweave Rings",
-                  "id": 16
+                  "uid": 23
                 }
               ]
             }
@@ -113,186 +113,162 @@
         },
         {
           "name": "Chancing Bases",
-          "id": 2,
+          "uid": 24,
           "editor": "True",
-          "BlockSections": [
+          "Blocks": [
             {
-              "name": "Chancing Bases",
-              "id": 7,
-              "Blocks": [
-                {
-                  "name": "Normal Bases",
-                  "id": 17
-                },
-                {
-                  "name": "League-specific Bases",
-                  "id": 18
-                },
-                {
-                  "name": "Other",
-                  "id": 19
-                }
-              ]
+              "name": "Normal Bases",
+              "uid": 25
+            },
+            {
+              "name": "League-specific Bases",
+              "uid": 26
+            },
+            {
+              "name": "Other",
+              "uid": 27
             }
           ]
         },
         {
           "name": "Currency",
-          "id": 3,
+          "uid": 28,
           "editor": "True",
-          "BlockSections": [
+          "Blocks": [
             {
-              "name": "Currency",
-              "id": 8,
-              "Blocks": [
-                {
-                  "name": "Top Tier 1:",
-                  "id": 20
-                },
-                {
-                  "name": " Top Tier 2:",
-                  "id": 21
-                },
-                {
-                  "name": "High Tier 1:",
-                  "id": 22
-                },
-                {
-                  "name": "High Tier 2:",
-                  "id": 23
-                },
-                {
-                  "name": "High Tier 3:",
-                  "id": 24
-                },
-                {
-                  "name": "Mid Tier 1:",
-                  "id": 25
-                },
-                {
-                  "name": "Mid Tier 2:",
-                  "id": 26
-                },
-                {
-                  "name": "Basic Tier 1:",
-                  "id": 27
-                },
-                {
-                  "name": "Basic Tier 2:",
-                  "id": 28
-                },
-                {
-                  "name": "Basic Tier 3:",
-                  "id": 29
-                },
-                {
-                  "name": "Basic Tier 4:",
-                  "id": 30
-                }
-              ]
+              "name": "Top Tier 1:",
+              "uid": 29
+            },
+            {
+              "name": " Top Tier 2:",
+              "uid": 30
+            },
+            {
+              "name": "High Tier 1:",
+              "uid": 31
+            },
+            {
+              "name": "High Tier 2:",
+              "uid": 32
+            },
+            {
+              "name": "High Tier 3:",
+              "uid": 33
+            },
+            {
+              "name": "Mid Tier 1:",
+              "uid": 34
+            },
+            {
+              "name": "Mid Tier 2:",
+              "uid": 35
+            },
+            {
+              "name": "Basic Tier 1:",
+              "uid": 36
+            },
+            {
+              "name": "Basic Tier 2:",
+              "uid": 37
+            },
+            {
+              "name": "Basic Tier 3:",
+              "uid": 38
+            },
+            {
+              "name": "Basic Tier 4:",
+              "uid": 39
             }
           ]
         },
         {
           "name": "Divination Cards",
-          "id": 4,
+          "uid": 40,
           "editor": "True",
-          "BlockSections": [
+          "Blocks": [
             {
-              "name": "Divination Cards",
-              "id": 9,
-              "Blocks": [
-                {
-                  "name": "Tier 1:",
-                  "id": 31
-                },
-                {
-                  "name": "Tier 2:",
-                  "id": 32
-                },
-                {
-                  "name": "Tier 3:",
-                  "id": 33
-                },
-                {
-                  "name": "Tier 4:",
-                  "id": 34
-                },
-                {
-                  "name": "Tier 5:",
-                  "id": 35
-                }
-              ]
+              "name": "Tier 1:",
+              "uid": 41
+            },
+            {
+              "name": "Tier 2:",
+              "uid": 42
+            },
+            {
+              "name": "Tier 3:",
+              "uid": 43
+            },
+            {
+              "name": "Tier 4:",
+              "uid": 44
+            },
+            {
+              "name": "Tier 5:",
+              "uid": 45
             }
           ]
         },
         {
           "name": "Unique Items",
-          "id": 5,
+          "uid": 46,
           "editor": "True",
-          "BlockSections": [
+          "Blocks": [
             {
-              "name": "Unique Items",
-              "id": 10,
-              "Blocks": [
-                {
-                  "name": "Tier 1:",
-                  "id": 36
-                },
-                {
-                  "name": "Tier 2:",
-                  "id": 37
-                },
-                {
-                  "name": "Tier 3:",
-                  "id": 38
-                },
-                {
-                  "name": "Tier 4:",
-                  "id": 39
-                },
-                {
-                  "name": "Tier 5:",
-                  "id": 40
-                },
-                {
-                  "name": "Tier 6:",
-                  "id": 41
-                }
-              ]
+              "name": "Tier 1:",
+              "uid": 47
+            },
+            {
+              "name": "Tier 2:",
+              "uid": 48
+            },
+            {
+              "name": "Tier 3:",
+              "uid": 49
+            },
+            {
+              "name": "Tier 4:",
+              "uid": 50
+            },
+            {
+              "name": "Tier 5:",
+              "uid": 51
+            },
+            {
+              "name": "Tier 6:",
+              "uid": 52
             }
           ]
         },
         {
           "name": "Current League: Betrayal",
-          "id": 6,
+          "uid": 53,
           "editor": "False",
           "BlockSections": [
             {
               "name": "Veiled Mods",
-              "id": 11,
+              "uid": 54,
               "Blocks": [
                 {
                   "name": "Veiled Mods",
-                  "id": 42
+                  "uid": 55
                 }
               ]
             },
             {
               "name": "Scarabs",
-              "id": 12,
+              "uid": 56,
               "Blocks": [
                 {
                   "name": "Tier 1 Scarabs",
-                  "id": 43
+                  "uid": 57
                 },
                 {
                   "name": "Tier 2 Scarabs",
-                  "id": 44
+                  "uid": 58
                 },
                 {
                   "name": "Tier 3 Scarabs",
-                  "id": 45
+                  "uid": 59
                 }
               ]
             }
@@ -302,136 +278,136 @@
     },
     {
       "name": "Endgame - General",
-      "id": 2,
+      "uid": 60,
       "Subsections": [
         {
           "name": "Maps",
-          "id": 7,
+          "uid": 61,
           "editor": "False",
           "BlockSections": [
             {
               "name": "Specific Maps",
-              "id": 13,
+              "uid": 62,
               "Blocks": [
                 {
                   "name": "Highlight Maps",
-                  "id": 46
+                  "uid": 63
                 },
                 {
                   "name": "Hide Maps",
-                  "id": 47
+                  "uid": 64
                 }
               ]
             },
             {
               "name": "Map Properties",
-              "id": 14,
+              "uid": 65,
               "Blocks": [
                 {
                   "name": "Highlight Maps With High Quality",
-                  "id": 48
+                  "uid": 66
                 },
                 {
                   "name": "Highlight Rare Maps",
-                  "id": 49
+                  "uid": 67
                 },
                 {
                   "name": "Highlight Magic Maps",
-                  "id": 50
+                  "uid": 68
                 },
                 {
                   "name": "Highlight Corrupted Maps",
-                  "id": 51
+                  "uid": 69
                 }
               ]
             },
             {
               "name": "Tier Specific Settings",
-              "id": 15,
+              "uid": 70,
               "Blocks": [
                 {
                   "name": "Threshold: Outleveled Maps",
-                  "id": 52
+                  "uid": 71
                 },
                 {
                   "name": "Hide Non-Shaped Maps By Tier",
-                  "id": 53
+                  "uid": 72
                 },
                 {
                   "name": "Hide Shaped-Only Maps By Tier",
-                  "id": 54
+                  "uid": 73
                 }
               ]
             },
             {
               "name": "Appearance",
-              "id": 16,
+              "uid": 74,
               "Blocks": [
                 {
                   "name": "Highlight - Elder T16",
-                  "id": 55
+                  "uid": 75
                 },
                 {
                   "name": "Highlight - Shaped T15",
-                  "id": 56
+                  "uid": 76
                 },
                 {
                   "name": "Highlight - Shaped T11-T14",
-                  "id": 57
+                  "uid": 77
                 },
                 {
                   "name": "Highlight - Shaped T6-T10",
-                  "id": 58
+                  "uid": 78
                 },
                 {
                   "name": "Highlight - T16",
-                  "id": 59
+                  "uid": 79
                 },
                 {
                   "name": "Highlight - T15",
-                  "id": 60
+                  "uid": 80
                 },
                 {
                   "name": "Highlight - T11-T14",
-                  "id": 61
+                  "uid": 81
                 },
                 {
                   "name": "Highlight - T10",
-                  "id": 62
+                  "uid": 82
                 },
                 {
                   "name": "Highlight - T6-T9",
-                  "id": 63
+                  "uid": 83
                 },
                 {
                   "name": "Highlight - T1-T5",
-                  "id": 64
+                  "uid": 84
                 },
                 {
                   "name": "Outleveled - T6-T9",
-                  "id": 65
+                  "uid": 85
                 },
                 {
                   "name": "Outleveled - T1-T5",
-                  "id": 66
+                  "uid": 86
                 }
               ]
             },
             {
               "name": "Unique Maps",
-              "id": 17,
+              "uid": 87,
               "Blocks": [
                 {
                   "name": "Unique Maps - Tier 1",
-                  "id": 67
+                  "uid": 88
                 },
                 {
                   "name": "Unique Maps - Tier 2",
-                  "id": 68
+                  "uid": 89
                 },
                 {
                   "name": "Unique Maps - Tier 3",
-                  "id": 69
+                  "uid": 90
                 }
               ]
             }
@@ -439,123 +415,117 @@
         },
         {
           "name": "Fragments",
-          "id": 8,
+          "uid": 91,
           "editor": "True",
-          "BlockSections": [
+          "Blocks": [
             {
-              "name": "Fragments",
-              "id": 18,
-              "Blocks": [
-                {
-                  "name": "Breachstones",
-                  "id": 70
-                },
-                {
-                  "name": "Uber Lab Offering",
-                  "id": 71
-                },
-                {
-                  "name": "Fragments, Tier 1:",
-                  "id": 72
-                },
-                {
-                  "name": "Fragments, Tier 2:",
-                  "id": 73
-                },
-                {
-                  "name": "Fragments, Tier 3:",
-                  "id": 74
-                },
-                {
-                  "name": "Fragments, Remaining",
-                  "id": 75
-                }
-              ]
+              "name": "Breachstones",
+              "uid": 92
+            },
+            {
+              "name": "Uber Lab Offering",
+              "uid": 93
+            },
+            {
+              "name": "Fragments, Tier 1:",
+              "uid": 94
+            },
+            {
+              "name": "Fragments, Tier 2:",
+              "uid": 95
+            },
+            {
+              "name": "Fragments, Tier 3:",
+              "uid": 96
+            },
+            {
+              "name": "Fragments, Remaining",
+              "uid": 97
             }
           ]
         },
         {
           "name": "Special Bases",
-          "id": 9,
+          "uid": 98,
           "editor": "False",
           "BlockSections": [
             {
               "name": "Atlas Exclusive",
-              "id": 19,
+              "uid": 99,
               "Blocks": [
                 {
                   "name": "Atlas Bases - Tier 1",
-                  "id": 76
+                  "uid": 100
                 },
                 {
                   "name": "Atlas Bases - Tier 2",
-                  "id": 77
+                  "uid": 101
                 },
                 {
                   "name": "Atlas Bases - Tier 3",
-                  "id": 78
+                  "uid": 102
                 },
                 {
                   "name": "Tier 1 - Item Level 86+",
-                  "id": 79
+                  "uid": 103
                 },
                 {
                   "name": "Tier 1",
-                  "id": 80
+                  "uid": 104
                 },
                 {
                   "name": "Tier 2 - Item Level 86+",
-                  "id": 81
+                  "uid": 105
                 },
                 {
                   "name": "Tier 2",
-                  "id": 82
+                  "uid": 106
                 },
                 {
                   "name": "Tier 3 - Item Level 86+",
-                  "id": 83
+                  "uid": 107
                 },
                 {
                   "name": "Tier 3",
-                  "id": 84
+                  "uid": 108
                 }
               ]
             },
             {
               "name": "Regular Jewels",
-              "id": 20,
+              "uid": 109,
               "Blocks": [
                 {
                   "name": "Rare Jewels",
-                  "id": 85
+                  "uid": 110
                 },
                 {
                   "name": "Magic Jewels",
-                  "id": 86
+                  "uid": 111
                 }
               ]
             },
             {
               "name": "Corrupted Items",
-              "id": 21,
+              "uid": 112,
               "Blocks": [
                 {
                   "name": "Corrupted Bases",
-                  "id": 87
+                  "uid": 113
                 }
               ]
             },
             {
               "name": "White Socket Items",
-              "id": 22,
+              "uid": 114,
               "Blocks": [
                 {
                   "name": "1H 1 White Socket Bases",
-                  "id": 88
+                  "uid": 115
                 },
                 {
                   "name": "1H 3 White Socket Bases",
-                  "id": 89
+                  "uid": 116
                 }
               ]
             }
@@ -565,78 +535,78 @@
     },
     {
       "name": "Endgame - Drops",
-      "id": 3,
+      "uid": 117,
       "Subsections": [
         {
           "name": "Crafting Bases",
-          "id": 10,
+          "uid": 118,
           "editor": "False",
           "BlockSections": [
             {
               "name": "Level 86+ Jewellery",
-              "id": 23,
+              "uid": 119,
               "Blocks": [
                 {
                   "name": "Tier 1",
-                  "id": 90
+                  "uid": 120
                 },
                 {
                   "name": "Tier 2",
-                  "id": 91
+                  "uid": 121
                 }
               ]
             },
             {
               "name": "Level 86+",
-              "id": 24,
+              "uid": 122,
               "Blocks": [
                 {
                   "name": "Tier 1",
-                  "id": 92
+                  "uid": 123
                 },
                 {
                   "name": "Tier 2",
-                  "id": 93
+                  "uid": 124
                 }
               ]
             },
             {
               "name": "Level 83/84 Jewellery",
-              "id": 25,
+              "uid": 125,
               "Blocks": [
                 {
                   "name": "Tier 1",
-                  "id": 94
+                  "uid": 126
                 },
                 {
                   "name": "Tier 2",
-                  "id": 95
+                  "uid": 127
                 }
               ]
             },
             {
               "name": "Level 83-85",
-              "id": 26,
+              "uid": 128,
               "Blocks": [
                 {
                   "name": "Tier 1",
-                  "id": 96
+                  "uid": 129
                 },
                 {
                   "name": "Tier 2",
-                  "id": 97
+                  "uid": 130
                 },
                 {
                   "name": "Weapons",
-                  "id": 98
+                  "uid": 131
                 },
                 {
                   "name": "Energy Shield Rares",
-                  "id": 99
+                  "uid": 132
                 },
                 {
                   "name": "Armours",
-                  "id": 100
+                  "uid": 133
                 }
               ]
             }
@@ -644,68 +614,68 @@
         },
         {
           "name": "T1 & T2 Bases",
-          "id": 11,
+          "uid": 134,
           "editor": "False",
           "BlockSections": [
             {
               "name": "Tier 1 Rares",
-              "id": 27,
+              "uid": 135,
               "Blocks": [
                 {
                   "name": "Small Weapons",
-                  "id": 101
+                  "uid": 136
                 },
                 {
                   "name": "Large Weapons",
-                  "id": 102
+                  "uid": 137
                 },
                 {
                   "name": "Small Armours",
-                  "id": 103
+                  "uid": 138
                 },
                 {
                   "name": "Large Armours",
-                  "id": 104
+                  "uid": 139
                 }
               ]
             },
             {
               "name": "Tier 2 Rares",
-              "id": 28,
+              "uid": 140,
               "Blocks": [
                 {
                   "name": "Small Weapons",
-                  "id": 105
+                  "uid": 141
                 },
                 {
                   "name": "Two-Hand Weapons",
-                  "id": 106
+                  "uid": 142
                 },
                 {
                   "name": "Larger Weapons",
-                  "id": 107
+                  "uid": 143
                 },
                 {
                   "name": "Small Armours",
-                  "id": 108
+                  "uid": 144
                 },
                 {
                   "name": "Body Armours",
-                  "id": 109
+                  "uid": 145
                 }
               ]
             },
             {
               "name": "Jewellery",
-              "id": 29,
+              "uid": 146,
               "Blocks": [
                 {
                   "name": "Tier 1",
-                  "id": 110
+                  "uid": 147
                 },
                 {
                   "name": "Tier 2",
-                  "id": 111
+                  "uid": 148
                 }
               ]
             }
@@ -713,228 +683,228 @@
         },
         {
           "name": "T3 & T4 Bases",
-          "id": 12,
+          "uid": 149,
           "editor": "False",
           "BlockSections": [
             {
               "name": "Daggers",
-              "id": 30,
+              "uid": 150,
               "Blocks": [
                 {
                   "name": "Daggers - Tier 3",
-                  "id": 112
+                  "uid": 151
                 },
                 {
                   "name": "Daggers - Tier 4",
-                  "id": 113
+                  "uid": 152
                 }
               ]
             },
             {
               "name": "Wands",
-              "id": 31,
+              "uid": 153,
               "Blocks": [
                 {
                   "name": "Wands - Tier 3",
-                  "id": 114
+                  "uid": 154
                 },
                 {
                   "name": "Wands - Tier 4",
-                  "id": 115
+                  "uid": 155
                 }
               ]
             },
             {
               "name": "Sceptres",
-              "id": 32,
+              "uid": 156,
               "Blocks": [
                 {
                   "name": "Scepters - Tier 3",
-                  "id": 116
+                  "uid": 157
                 },
                 {
                   "name": "Scepters - Tier 4",
-                  "id": 117
+                  "uid": 158
                 }
               ]
             },
             {
               "name": "Claws",
-              "id": 33,
+              "uid": 159,
               "Blocks": [
                 {
                   "name": "Claws - Tier 3",
-                  "id": 118
+                  "uid": 160
                 },
                 {
                   "name": "Claws - Tier 4",
-                  "id": 119
+                  "uid": 161
                 }
               ]
             },
             {
               "name": "Foils",
-              "id": 34,
+              "uid": 162,
               "Blocks": [
                 {
                   "name": "Foils - Tier 3",
-                  "id": 120
+                  "uid": 163
                 },
                 {
                   "name": "Foils - Tier 4",
-                  "id": 121
+                  "uid": 164
                 }
               ]
             },
             {
               "name": "1H-Swords",
-              "id": 35,
+              "uid": 165,
               "Blocks": [
                 {
                   "name": "1H Swords - Tier 3",
-                  "id": 122
+                  "uid": 166
                 },
                 {
                   "name": "1H Swords - Tier 4",
-                  "id": 123
+                  "uid": 167
                 }
               ]
             },
             {
               "name": "1H-Maces",
-              "id": 36,
+              "uid": 168,
               "Blocks": [
                 {
                   "name": "1H Maces - Tier 3",
-                  "id": 124
+                  "uid": 169
                 },
                 {
                   "name": "1H Maces - Tier 4",
-                  "id": 125
+                  "uid": 170
                 }
               ]
             },
             {
               "name": "1H-Axes",
-              "id": 37,
+              "uid": 171,
               "Blocks": [
                 {
                   "name": "1H Axes - Tier 3",
-                  "id": 126
+                  "uid": 172
                 },
                 {
                   "name": "1H Axes - Tier 4",
-                  "id": 127
+                  "uid": 173
                 }
               ]
             },
             {
               "name": "Staves",
-              "id": 38,
+              "uid": 174,
               "Blocks": [
                 {
                   "name": "Staves - Tier 3",
-                  "id": 128
+                  "uid": 175
                 },
                 {
                   "name": "Staves - Tier 4",
-                  "id": 129
+                  "uid": 176
                 }
               ]
             },
             {
               "name": "Two-Handed Weapons",
-              "id": 39,
+              "uid": 177,
               "Blocks": [
                 {
                   "name": "2H Weapons - Tier 3",
-                  "id": 130
+                  "uid": 178
                 },
                 {
                   "name": "2H Weapons - Tier 4",
-                  "id": 131
+                  "uid": 179
                 }
               ]
             },
             {
               "name": "Bows",
-              "id": 40,
+              "uid": 180,
               "Blocks": [
                 {
                   "name": "Bows - Tier 3",
-                  "id": 132
+                  "uid": 181
                 },
                 {
                   "name": "Bows - Tier 4",
-                  "id": 133
+                  "uid": 182
                 }
               ]
             },
             {
               "name": "Gloves, Boots, Helmets",
-              "id": 41,
+              "uid": 183,
               "Blocks": [
                 {
                   "name": "Small Armour Pieces - Tier 3",
-                  "id": 134
+                  "uid": 184
                 },
                 {
                   "name": "Small Armour Pieces - Tier 3",
-                  "id": 135
+                  "uid": 185
                 },
                 {
                   "name": "Small Armour Pieces - Tier 4",
-                  "id": 136
+                  "uid": 186
                 }
               ]
             },
             {
               "name": "Body Armours",
-              "id": 42,
+              "uid": 187,
               "Blocks": [
                 {
                   "name": "Body Armour - Tier 3",
-                  "id": 137
+                  "uid": 188
                 },
                 {
                   "name": "Body Armour - Tier 4",
-                  "id": 138
+                  "uid": 189
                 }
               ]
             },
             {
               "name": "Shields",
-              "id": 43,
+              "uid": 190,
               "Blocks": [
                 {
                   "name": "Shields - Tier 3 (2X2 Small)",
-                  "id": 139
+                  "uid": 191
                 },
                 {
                   "name": "Bows - Tier 4 (2X2 Small)",
-                  "id": 140
+                  "uid": 192
                 },
                 {
                   "name": "Bows - Tier 3 (Others)",
-                  "id": 141
+                  "uid": 193
                 },
                 {
                   "name": "Bows - Tier 4 (Others)",
-                  "id": 142
+                  "uid": 194
                 }
               ]
             },
             {
               "name": "Quivers",
-              "id": 44,
+              "uid": 195,
               "Blocks": [
                 {
                   "name": "Quivers - Tier 3",
-                  "id": 143
+                  "uid": 196
                 },
                 {
                   "name": "Quivers - Tier 4",
-                  "id": 144
+                  "uid": 197
                 }
               ]
             }
@@ -942,166 +912,166 @@
         },
         {
           "name": "Shaper & Elder Items",
-          "id": 13,
+          "uid": 198,
           "editor": "False",
           "BlockSections": [
             {
               "name": "Shaper Items: Top Tier Bases",
-              "id": 45,
+              "uid": 199,
               "Blocks": [
                 {
                   "name": "Exceptional Shaper Bases",
-                  "id": 145
+                  "uid": 200
                 }
               ]
             },
             {
               "name": "Shaper Items: Tier 1 Bases:",
-              "id": 46,
+              "uid": 201,
               "Blocks": [
                 {
                   "name": "Tier 1 Bases",
-                  "id": 146
+                  "uid": 202
                 },
                 {
                   "name": "Tier 1 Bases",
-                  "id": 147
+                  "uid": 203
                 },
                 {
                   "name": "Tier 1 Bases",
-                  "id": 148
+                  "uid": 204
                 }
               ]
             },
             {
               "name": "Shaper Items: Tier 1 Classes:",
-              "id": 47,
+              "uid": 205,
               "Blocks": [
                 {
                   "name": "Tier 1 Classes",
-                  "id": 149
+                  "uid": 206
                 }
               ]
             },
             {
               "name": "Shaper Items: Tier 2 Bases:",
-              "id": 48,
+              "uid": 207,
               "Blocks": [
                 {
                   "name": "Tier 2 Bases",
-                  "id": 150
+                  "uid": 208
                 },
                 {
                   "name": "Tier 2 Bases",
-                  "id": 151
+                  "uid": 209
                 },
                 {
                   "name": "Tier 2 Bases",
-                  "id": 152
+                  "uid": 210
                 }
               ]
             },
             {
               "name": "Shaper Items: Tier 2 Classes:",
-              "id": 49,
+              "uid": 211,
               "Blocks": [
                 {
                   "name": "Tier 2 Classes",
-                  "id": 153
+                  "uid": 212
                 }
               ]
             },
             {
               "name": "Shaper Items: Tier 3 (remaining)",
-              "id": 50,
+              "uid": 213,
               "Blocks": [
                 {
                   "name": "Remaining Small Shaper Items",
-                  "id": 154
+                  "uid": 214
                 },
                 {
                   "name": "Remaining Shaper Items",
-                  "id": 155
+                  "uid": 215
                 }
               ]
             },
             {
               "name": "Elder Items: Top Tier Bases",
-              "id": 51,
+              "uid": 216,
               "Blocks": [
                 {
                   "name": "Exceptional Elder Bases",
-                  "id": 156
+                  "uid": 217
                 }
               ]
             },
             {
               "name": "Elder Items: Tier 1 Bases:",
-              "id": 52,
+              "uid": 218,
               "Blocks": [
                 {
                   "name": "Tier 1 Bases",
-                  "id": 157
+                  "uid": 219
                 },
                 {
                   "name": "Tier 1 Bases",
-                  "id": 158
+                  "uid": 220
                 },
                 {
                   "name": "Tier 1 Bases",
-                  "id": 159
+                  "uid": 221
                 }
               ]
             },
             {
               "name": "Elder Items: Tier 1 Classes:",
-              "id": 53,
+              "uid": 222,
               "Blocks": [
                 {
                   "name": "Tier 1 Classes",
-                  "id": 160
+                  "uid": 223
                 }
               ]
             },
             {
               "name": "Elder Items: Tier 2 Bases:",
-              "id": 54,
+              "uid": 224,
               "Blocks": [
                 {
                   "name": "Tier 2 Bases",
-                  "id": 161
+                  "uid": 225
                 },
                 {
                   "name": "Tier 2 Bases",
-                  "id": 162
+                  "uid": 226
                 },
                 {
                   "name": "Tier 2 Bases",
-                  "id": 163
+                  "uid": 227
                 }
               ]
             },
             {
               "name": "Elder Items: Tier 2 Classes:",
-              "id": 55,
+              "uid": 228,
               "Blocks": [
                 {
                   "name": "Tier 2 Classes",
-                  "id": 164
+                  "uid": 229
                 }
               ]
             },
             {
               "name": "Elder Items: Tier 3 (remaining)",
-              "id": 56,
+              "uid": 230,
               "Blocks": [
                 {
                   "name": "Remaining Small Elder Items",
-                  "id": 165
+                  "uid": 231
                 },
                 {
                   "name": "Remaining Elder Items",
-                  "id": 166
+                  "uid": 232
                 }
               ]
             }
@@ -1111,54 +1081,54 @@
     },
     {
       "name": "League-Specific Items",
-      "id": 4,
+      "uid": 233,
       "Subsections": [
         {
           "name": "Abyss League",
-          "id": 14,
+          "uid": 234,
           "editor": "False",
           "BlockSections": [
             {
               "name": "Abyss Jewels",
-              "id": 57,
+              "uid": 235,
               "Blocks": [
                 {
                   "name": "Rare Abyss Jewels - Ilvl 84+",
-                  "id": 167
+                  "uid": 236
                 },
                 {
                   "name": "Magic Abyss Jewels - Ilvl 84+",
-                  "id": 168
+                  "uid": 237
                 },
                 {
                   "name": "Rare Abyss Jewels",
-                  "id": 169
+                  "uid": 238
                 },
                 {
                   "name": "Magic Abyss Jewels",
-                  "id": 170
+                  "uid": 239
                 }
               ]
             },
             {
               "name": "Stygian Vise",
-              "id": 58,
+              "uid": 240,
               "Blocks": [
                 {
                   "name": "Stygian Vise - Ilvl 86",
-                  "id": 171
+                  "uid": 241
                 },
                 {
                   "name": "Stygian Vise - Ilvl 82+",
-                  "id": 172
+                  "uid": 242
                 },
                 {
                   "name": "Stygian Vise - Ilvl 75+",
-                  "id": 173
+                  "uid": 243
                 },
                 {
                   "name": "Stygian Vise",
-                  "id": 174
+                  "uid": 244
                 }
               ]
             }
@@ -1166,60 +1136,60 @@
         },
         {
           "name": "Delve League",
-          "id": 15,
+          "uid": 245,
           "editor": "False",
           "BlockSections": [
             {
               "name": "Resonators",
-              "id": 59,
+              "uid": 246,
               "Blocks": [
                 {
                   "name": "Tier 1",
-                  "id": 175
+                  "uid": 247
                 },
                 {
                   "name": "Tier 2",
-                  "id": 176
+                  "uid": 248
                 },
                 {
                   "name": "Tier 3 (Remaining)",
-                  "id": 177
+                  "uid": 249
                 }
               ]
             },
             {
               "name": "Fossils",
-              "id": 60,
+              "uid": 250,
               "Blocks": [
                 {
                   "name": "Tier 1",
-                  "id": 178
+                  "uid": 251
                 },
                 {
                   "name": "Tier 2",
-                  "id": 179
+                  "uid": 252
                 },
                 {
                   "name": "Tier 3",
-                  "id": 180
+                  "uid": 253
                 },
                 {
                   "name": "Tier 4 (Remaining)",
-                  "id": 181
+                  "uid": 254
                 }
               ]
             },
             {
               "name": "Delve Mods",
-              "id": 61,
+              "uid": 255,
               "Blocks": [
                 {
                   "name": "Tier 1",
-                  "id": 182
+                  "uid": 256
                 },
                 {
                   "name": "Tier 2",
-                  "id": 183
+                  "uid": 257
                 }
               ]
             }
@@ -1227,34 +1197,34 @@
         },
         {
           "name": "Breach League",
-          "id": 16,
+          "uid": 258,
           "editor": "False",
           "BlockSections": [
             {
               "name": "Splinters",
-              "id": 62,
+              "uid": 259,
               "Blocks": [
                 {
                   "name": "Breach Splinters - Tier 1",
-                  "id": 184
+                  "uid": 260
                 },
                 {
                   "name": "Breach Splinters - Tier 2",
-                  "id": 185
+                  "uid": 261
                 }
               ]
             },
             {
               "name": "Blessings",
-              "id": 63,
+              "uid": 262,
               "Blocks": [
                 {
                   "name": "Breach Blessings - Tier 1",
-                  "id": 186
+                  "uid": 263
                 },
                 {
                   "name": "Breach Blessings - Tier 2",
-                  "id": 187
+                  "uid": 264
                 }
               ]
             }
@@ -1262,48 +1232,48 @@
         },
         {
           "name": "Incursion League",
-          "id": 17,
+          "uid": 265,
           "editor": "False",
           "BlockSections": [
             {
               "name": "Stone of Passage",
-              "id": 64,
+              "uid": 266,
               "Blocks": [
                 {
                   "name": "Stone of Passage",
-                  "id": 188
+                  "uid": 267
                 }
               ]
             },
             {
               "name": "Vials",
-              "id": 65,
+              "uid": 268,
               "Blocks": [
                 {
                   "name": "Vials - Tier 1",
-                  "id": 189
+                  "uid": 269
                 },
                 {
                   "name": "Vials - Tier 2",
-                  "id": 190
+                  "uid": 270
                 }
               ]
             },
             {
               "name": "Mods",
-              "id": 66,
+              "uid": 271,
               "Blocks": [
                 {
                   "name": "Incursion Mods (Rare)",
-                  "id": 191
+                  "uid": 272
                 },
                 {
                   "name": "Incursion Mods (Magic)",
-                  "id": 192
+                  "uid": 273
                 },
                 {
                   "name": "Incursion Map Mods",
-                  "id": 193
+                  "uid": 274
                 }
               ]
             }
@@ -1311,171 +1281,165 @@
         },
         {
           "name": "Prophecy League",
-          "id": 18,
+          "uid": 275,
           "editor": "True",
-          "BlockSections": [
+          "Blocks": [
             {
-              "name": "Prophecy League",
-              "id": 67,
-              "Blocks": [
-                {
-                  "name": "Tier 1",
-                  "id": 194
-                },
-                {
-                  "name": "Tier 2",
-                  "id": 195
-                },
-                {
-                  "name": "Tier 3 (Remaining)",
-                  "id": 196
-                }
-              ]
+              "name": "Tier 1",
+              "uid": 276
+            },
+            {
+              "name": "Tier 2",
+              "uid": 277
+            },
+            {
+              "name": "Tier 3 (Remaining)",
+              "uid": 278
             }
           ]
         },
         {
           "name": "Other Leagues",
-          "id": 19,
+          "uid": 279,
           "editor": "False",
           "BlockSections": [
             {
               "name": "Reliquary Keys",
-              "id": 68,
+              "uid": 280,
               "Blocks": [
                 {
                   "name": "Reliquary Keys",
-                  "id": 197
+                  "uid": 281
                 }
               ]
             },
             {
               "name": "Essences",
-              "id": 69,
+              "uid": 282,
               "Blocks": [
                 {
                   "name": "Highlight Essences By Type",
-                  "id": 198
+                  "uid": 283
                 },
                 {
                   "name": "Tier 1-2 And Corrupted Essences",
-                  "id": 199
+                  "uid": 284
                 },
                 {
                   "name": "Tier 3",
-                  "id": 200
+                  "uid": 285
                 },
                 {
                   "name": "Tier 4",
-                  "id": 201
+                  "uid": 286
                 },
                 {
                   "name": "Tier 5",
-                  "id": 202
+                  "uid": 287
                 },
                 {
                   "name": "Tier 6",
-                  "id": 203
+                  "uid": 288
                 },
                 {
                   "name": "Tier 7",
-                  "id": 204
+                  "uid": 289
                 }
               ]
             },
             {
               "name": "Talismans",
-              "id": 70,
+              "uid": 290,
               "Blocks": [
                 {
                   "name": "Talismans",
-                  "id": 205
+                  "uid": 291
                 }
               ]
             },
             {
               "name": "Perandus Coins",
-              "id": 71,
+              "uid": 292,
               "Blocks": [
                 {
                   "name": "Perandus coins - Big Stacks",
-                  "id": 206
+                  "uid": 293
                 },
                 {
                   "name": "Perandus coins - Medium Stacks",
-                  "id": 207
+                  "uid": 294
                 },
                 {
                   "name": "Perandus coins - Small Stacks",
-                  "id": 208
+                  "uid": 295
                 }
               ]
             },
             {
               "name": "Harbinger Currency",
-              "id": 72,
+              "uid": 296,
               "Blocks": [
                 {
                   "name": "Tier 1",
-                  "id": 209
+                  "uid": 297
                 },
                 {
                   "name": "Tier 2",
-                  "id": 210
+                  "uid": 298
                 }
               ]
             },
             {
               "name": "Bestiary",
-              "id": 73,
+              "uid": 299,
               "Blocks": [
                 {
                   "name": "Rares With Aspect Mod",
-                  "id": 211
+                  "uid": 300
                 },
                 {
                   "name": "Tier 1 Nets",
-                  "id": 212
+                  "uid": 301
                 },
                 {
                   "name": "Tier 2 Nets",
-                  "id": 213
+                  "uid": 302
                 },
                 {
                   "name": "Tier 3 Nets",
-                  "id": 214
+                  "uid": 303
                 },
                 {
                   "name": "Tier 4 Nets",
-                  "id": 215
+                  "uid": 304
                 },
                 {
                   "name": "Tier 5 Nets",
-                  "id": 216
+                  "uid": 305
                 }
               ]
             },
             {
               "name": "Warbands",
-              "id": 74,
+              "uid": 306,
               "Blocks": [
                 {
                   "name": "Warband Items",
-                  "id": 217
+                  "uid": 307
                 }
               ]
             },
             {
               "name": "Leaguestones",
-              "id": 75,
+              "uid": 308,
               "Blocks": [
                 {
                   "name": "Magic Leaguestones",
-                  "id": 218
+                  "uid": 309
                 },
                 {
                   "name": "Normal Leaguestones",
-                  "id": 219
+                  "uid": 310
                 }
               ]
             }
@@ -1485,115 +1449,60 @@
     },
     {
       "name": "Miscellaneous",
-      "id": 5,
+      "uid": 311,
       "Subsections": [
         {
-          "name": "Flasks",
-          "id": 20,
-          "editor": "False",
-          "BlockSections": [
-            {
-              "name": "Utility Flasks",
-              "id": 76,
-              "Blocks": [
-                {
-                  "name": "Quality Handpicked Utility Flasks",
-                  "id": 220
-                },
-                {
-                  "name": "Handpicked Utility Flasks",
-                  "id": 221
-                },
-                {
-                  "name": "Utility Flasks (Remaining)",
-                  "id": 222
-                }
-              ]
-            },
-            {
-              "name": "Life Flasks",
-              "id": 77,
-              "Blocks": [
-                {
-                  "name": "Life Flasks",
-                  "id": 223
-                }
-              ]
-            },
-            {
-              "name": "Mana Flasks",
-              "id": 78,
-              "Blocks": [
-                {
-                  "name": "Mana Flasks",
-                  "id": 224
-                }
-              ]
-            },
-            {
-              "name": "Hybrid Flasks",
-              "id": 79,
-              "Blocks": [
-                {
-                  "name": "Hybrid Flasks",
-                  "id": 225
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "Skill Gems",
-          "id": 21,
+          "uid": 312,
           "editor": "False",
           "BlockSections": [
             {
               "name": "Top Gems",
-              "id": 80,
+              "uid": 313,
               "Blocks": [
                 {
                   "name": "Top Gems With High Level",
-                  "id": 226
+                  "uid": 314
                 },
                 {
                   "name": "Top Gems With High Quality",
-                  "id": 227
+                  "uid": 315
                 }
               ]
             },
             {
               "name": "Gem Tiers",
-              "id": 81,
+              "uid": 316,
               "Blocks": [
                 {
                   "name": "Tier 1 (Drop-Only)",
-                  "id": 228
+                  "uid": 317
                 },
                 {
                   "name": "Tier 2 (Drop-Only)",
-                  "id": 229
+                  "uid": 318
                 },
                 {
                   "name": "Tier 3 (Remaining)",
-                  "id": 230
+                  "uid": 319
                 }
               ]
             },
             {
               "name": "Leveled Gems",
-              "id": 82,
+              "uid": 320,
               "Blocks": [
                 {
                   "name": "Gems With Max Level",
-                  "id": 231
+                  "uid": 321
                 },
                 {
                   "name": "Gems With High Level",
-                  "id": 232
+                  "uid": 322
                 },
                 {
                   "name": "Gems With Low Level",
-                  "id": 233
+                  "uid": 323
                 }
               ]
             }
@@ -1601,47 +1510,35 @@
         },
         {
           "name": "Misc. Items",
-          "id": 22,
+          "uid": 324,
           "editor": "True",
-          "BlockSections": [
+          "Blocks": [
             {
-              "name": "Misc. Items",
-              "id": 83,
-              "Blocks": [
-                {
-                  "name": "Labyrinth Items (NOT offerings)",
-                  "id": 234
-                },
-                {
-                  "name": "Random Quest Items",
-                  "id": 235
-                },
-                {
-                  "name": "Shaper Orb",
-                  "id": 236
-                }
-              ]
+              "name": "Labyrinth Items (NOT offerings)",
+              "uid": 325
+            },
+            {
+              "name": "Random Quest Items",
+              "uid": 326
+            },
+            {
+              "name": "Shaper Orb",
+              "uid": 327
             }
           ]
         },
         {
           "name": "Valuable Linked Items",
-          "id": 23,
+          "uid": 328,
           "editor": "True",
-          "BlockSections": [
+          "Blocks": [
             {
-              "name": "Valuable Linked Items",
-              "id": 84,
-              "Blocks": [
-                {
-                  "name": "6-Linked Items",
-                  "id": 237
-                },
-                {
-                  "name": "5-Linked Items",
-                  "id": 238
-                }
-              ]
+              "name": "6-Linked Items",
+              "uid": 329
+            },
+            {
+              "name": "5-Linked Items",
+              "uid": 330
             }
           ]
         }
@@ -1649,40 +1546,40 @@
     },
     {
       "name": "Leveling",
-      "id": 6,
+      "uid": 331,
       "Subsections": [
         {
           "name": "Item Progression",
-          "id": 24,
+          "uid": 332,
           "editor": "False",
           "BlockSections": [
             {
               "name": "Progression 1",
-              "id": 85,
+              "uid": 333,
               "Blocks": [
                 {
                   "name": "Item Progression Editor",
-                  "id": 239
+                  "uid": 334
                 }
               ]
             },
             {
               "name": "Progression 2",
-              "id": 86,
+              "uid": 335,
               "Blocks": [
                 {
                   "name": "Item Progression Editor",
-                  "id": 240
+                  "uid": 336
                 }
               ]
             },
             {
               "name": "Progression 3",
-              "id": 87,
+              "uid": 337,
               "Blocks": [
                 {
                   "name": "Item Progression Editor",
-                  "id": 241
+                  "uid": 338
                 }
               ]
             }
@@ -1690,94 +1587,94 @@
         },
         {
           "name": "Colors & Links",
-          "id": 25,
+          "uid": 339,
           "editor": "False",
           "BlockSections": [
             {
               "name": "Chromatic Recipe Items",
-              "id": 88,
+              "uid": 340,
               "Blocks": [
                 {
                   "name": "Leveling: Small (2X2)",
-                  "id": 242
+                  "uid": 341
                 },
                 {
                   "name": "Leveling: Small (1x3, 1x4)",
-                  "id": 243
+                  "uid": 342
                 },
                 {
                   "name": "Leveling: Large (2x3)",
-                  "id": 244
+                  "uid": 343
                 },
                 {
                   "name": "Leveling: Large (2x4)",
-                  "id": 245
+                  "uid": 344
                 }
               ]
             },
             {
               "name": "Desired Socketgroups",
-              "id": 89,
+              "uid": 345,
               "Blocks": [
                 {
                   "name": "Desired Socketgroups",
-                  "id": 246
+                  "uid": 346
                 }
               ]
             },
             {
               "name": "4-Linked: Chromatic",
-              "id": 90,
+              "uid": 347,
               "Blocks": [
                 {
                   "name": "4-Links: Chromatic",
-                  "id": 247
+                  "uid": 348
                 }
               ]
             },
             {
               "name": "4-Linked: General",
-              "id": 91,
+              "uid": 349,
               "Blocks": [
                 {
                   "name": "Minimum Color Requirements",
-                  "id": 248
+                  "uid": 350
                 },
                 {
                   "name": "4-Links: Rares",
-                  "id": 249
+                  "uid": 351
                 },
                 {
                   "name": "4-Links: Normal And Magic",
-                  "id": 250
+                  "uid": 352
                 }
               ]
             },
             {
               "name": "3-Linked: General",
-              "id": 92,
+              "uid": 353,
               "Blocks": [
                 {
                   "name": "Minimum Color Requirements",
-                  "id": 251
+                  "uid": 354
                 },
                 {
                   "name": "3-Links: Ilvl 1-12",
-                  "id": 252
+                  "uid": 355
                 },
                 {
                   "name": "3-Links: Ilvl 1-24",
-                  "id": 253
+                  "uid": 356
                 }
               ]
             },
             {
               "name": "3-Linked: Caster",
-              "id": 93,
+              "uid": 357,
               "Blocks": [
                 {
                   "name": "Caster Weapons: Normal And Magic",
-                  "id": 254
+                  "uid": 358
                 }
               ]
             }
@@ -1785,46 +1682,46 @@
         },
         {
           "name": "Rares",
-          "id": 26,
+          "uid": 359,
           "editor": "False",
           "BlockSections": [
             {
               "name": "Jewellery",
-              "id": 94,
+              "uid": 360,
               "Blocks": [
                 {
                   "name": "Rare Jewellery",
-                  "id": 255
+                  "uid": 361
                 }
               ]
             },
             {
               "name": "Boots",
-              "id": 95,
+              "uid": 362,
               "Blocks": [
                 {
                   "name": "Early Rare Boots",
-                  "id": 256
+                  "uid": 363
                 }
               ]
             },
             {
               "name": "Small Armours",
-              "id": 96,
+              "uid": 364,
               "Blocks": [
                 {
                   "name": "Small Rare Armours",
-                  "id": 257
+                  "uid": 365
                 }
               ]
             },
             {
               "name": "Caster Weapons",
-              "id": 97,
+              "uid": 366,
               "Blocks": [
                 {
                   "name": "Rare Caster Weapons",
-                  "id": 258
+                  "uid": 367
                 }
               ]
             }
@@ -1832,124 +1729,124 @@
         },
         {
           "name": "Finetuning",
-          "id": 27,
+          "uid": 368,
           "editor": "False",
           "BlockSections": [
             {
               "name": "Act 1",
-              "id": 98,
+              "uid": 369,
               "Blocks": [
                 {
                   "name": "Lvl 1-16: Defensive And Recipe Trinkets",
-                  "id": 259
+                  "uid": 370
                 },
                 {
                   "name": "Lvl 1-12: Physical Trinkets",
-                  "id": 260
+                  "uid": 371
                 },
                 {
                   "name": "Lvl 1-12: Random Trinkets",
-                  "id": 261
+                  "uid": 372
                 },
                 {
                   "name": "Lvl 1-12: Caster Weapons",
-                  "id": 262
+                  "uid": 373
                 }
               ]
             },
             {
               "name": "Act 2, 3",
-              "id": 99,
+              "uid": 374,
               "Blocks": [
                 {
                   "name": "Lvl 12-32: Top Jewellery",
-                  "id": 263
+                  "uid": 375
                 }
               ]
             },
             {
               "name": "Act 4, 5, 6",
-              "id": 100,
+              "uid": 376,
               "Blocks": [
                 {
                   "name": "Act 4-6 Rings (Norm and Magic)",
-                  "id": 264
+                  "uid": 377
                 }
               ]
             },
             {
               "name": "Highlight: Early Boots",
-              "id": 101,
+              "uid": 378,
               "Blocks": [
                 {
                   "name": "Boots: Lvl 1-12",
-                  "id": 265
+                  "uid": 379
                 }
               ]
             },
             {
               "name": "Quiver Progression",
-              "id": 102,
+              "uid": 380,
               "Blocks": [
                 {
                   "name": "Quivers: Lvl 1-8",
-                  "id": 266
+                  "uid": 381
                 },
                 {
                   "name": "Quivers: Lvl 8-24",
-                  "id": 267
+                  "uid": 382
                 },
                 {
                   "name": "Quivers: Lvl 25-34",
-                  "id": 268
+                  "uid": 383
                 },
                 {
                   "name": "Quivers: Lvl 34-48",
-                  "id": 269
+                  "uid": 384
                 }
               ]
             },
             {
               "name": "First Levels: Normal Items",
-              "id": 103,
+              "uid": 385,
               "Blocks": [
                 {
                   "name": "Lvl 1-4: Small Items",
-                  "id": 270
+                  "uid": 386
                 },
                 {
                   "name": "Lvl 1-4: Other Items",
-                  "id": 271
+                  "uid": 387
                 },
                 {
                   "name": "Exception: Body Armours",
-                  "id": 272
+                  "uid": 388
                 }
               ]
             },
             {
               "name": "Early Levels: Magic Items",
-              "id": 104,
+              "uid": 389,
               "Blocks": [
                 {
                   "name": "Lvl 1-3",
-                  "id": 273
+                  "uid": 390
                 },
                 {
                   "name": "Lvl 1-12: Small Items",
-                  "id": 274
+                  "uid": 391
                 },
                 {
                   "name": "Lvl 1-12: Large Items",
-                  "id": 275
+                  "uid": 392
                 },
                 {
                   "name": "Lvl 1-24: Small Items",
-                  "id": 276
+                  "uid": 393
                 },
                 {
                   "name": "Lvl 1-32",
-                  "id": 277
+                  "uid": 394
                 }
               ]
             }
