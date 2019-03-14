@@ -209,26 +209,28 @@ class SubSections extends Component {
 
 function Layout() {
     return (
-        <div key={0} id="Visual">
-            <div key={1} id="VisualDiv2">
-                {data.Sections.map((item) => {
-                    return (
-                        <Fragment key={item.uid}>
-                            <label key={item.uid + 1} className="BroadTitle">{item.name}</label>
-                            {item.Subsections.map((subitem) => {
-                                return (
-                                    <Fragment key={subitem.uid + 2}>
-                                        <SubSections data={subitem} key={subitem.uid + 3} uid={subitem.uid}
-                                                     name={subitem.name}
-                                                     editor={subitem.editor}/>
-                                    </Fragment>
-                                )
-                            })}
-                        </Fragment>
-                    )
-                })}
+        <Fragment>
+            <div key={1} id="Visual">
+                <div key={2} id="VisualDiv2">
+                    {data.Sections.map((item) => {
+                        return (
+                            <Fragment key={item.uid}>
+                                <label key={item.uid + 1} className="BroadTitle">{item.name}</label>
+                                {item.Subsections.map((subitem) => {
+                                    return (
+                                        <Fragment key={subitem.uid + 2}>
+                                            <SubSections data={subitem} key={subitem.uid + 3} uid={subitem.uid}
+                                                         name={subitem.name}
+                                                         editor={subitem.editor}/>
+                                        </Fragment>
+                                    )
+                                })}
+                            </Fragment>
+                        )
+                    })}
+                </div>
             </div>
-        </div>
+        </Fragment>
     )
 }
 
