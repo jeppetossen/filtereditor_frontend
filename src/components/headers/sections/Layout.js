@@ -1,6 +1,7 @@
 import React, {Component, Fragment} from 'react';
 import './Layout.scss';
-import data from '../../../../src/api/headers.json';
+import data from '../../../api/headers.json';
+import Spectrum from '../../spectrum/spectrum.js';
 
 
 function VisualEditor(props) {
@@ -38,6 +39,7 @@ function VisualEditor(props) {
                                  className="VisualEditor_ComboBoxEnabledColor selectedSocket"></div>
                             <label key={props.uid + 21} className="VisualEditor_ComboBoxLeftLabel">TX</label>
                             {/*<input key={props.uid} type="text" className="SpectrumColorPicker" style="display: none;" />*/}
+                            <Spectrum />
                             {/*<div class="sp-replacer sp-light">
                                     <div class="sp-preview">
                                         <div class="sp-preview-inner"></div>
