@@ -1,6 +1,6 @@
 import React, {Component, Fragment} from 'react';
 import './App.css';
-import Layout from "./components/headers/sections/Layout";
+import Sections from "./components/layout/sections/Sections";
 
 
 class App extends Component {
@@ -12,7 +12,7 @@ class App extends Component {
                     <label className="MenuBarItems">Save</label>
                 </div>*/}
                 <section className="Filtereditor">
-                    <Layout />
+                    <Sections />
                 </section>
             </Fragment>
         );
