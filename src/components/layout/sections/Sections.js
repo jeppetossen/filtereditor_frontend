@@ -1,5 +1,5 @@
-import React, {Component, Fragment, useState} from 'react';
-import './Layout.scss';
+import React, {Fragment, useState} from 'react';
+import './Sections.css';
 import data from '../../../api/headers.json';
 import Subsections from '../subsections/Subsections';
 
@@ -31,4 +31,4 @@ function Sections() {
     )
 }
 
-export default Sections
+export default Sections;

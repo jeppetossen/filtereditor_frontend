@@ -11,14 +11,12 @@ class App extends Component {
                     <label className="MenuBarItems">Customize</label>
                     <label className="MenuBarItems">Save</label>
                 </div>*/}
-                <section className="Filtereditor">
+                <section id="Filtereditor">
                     <Sections />
                 </section>
             </Fragment>
         );
     }
 }
-
-
 
 export default App;

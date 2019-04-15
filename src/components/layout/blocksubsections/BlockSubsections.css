@@ -1,0 +1,39 @@
+.BlockSubsection {
+  background: #091649 none repeat scroll 0 0;
+  border-radius: 2px;
+  margin-bottom: 4px;
+  padding: 8px;
+  color: #fec076;
+  border-color: transparent;
+  cursor: pointer;
+  letter-spacing: 1px;
+  font-weight: 700;
+  -webkit-transition: border-color 0.5s ease 0s;
+  -moz-transition: border-color 0.5s ease 0s;
+  -ms-transition: border-color 0.5s ease 0s;
+  -o-transition: border-color 0.5s ease 0s;
+  transition: border-color 0.5s ease 0s; }
+
+.BlockSubsection:hover {
+  background: #091884 none repeat scroll 0 0; }
+
+.BlockSubsectionLabel {
+  display: inline-block;
+  font-size: 24px;
+  margin: 5px 10px 5px 5px;
+  cursor: pointer;
+  vertical-align: middle;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #ffffff; }
+
+.BlockSubsectionContent:not(.open) {
+  display: none; }
+
+.BlockSubsectionContent:not(.closed) {
+  display: block;
+  background-color: #1c1c1c;
+  padding: 22px;
+  margin-bottom: 40px;
+  border: 1px solid #3a3a3a;
+  border-radius: 0 0 6px 6px; }
