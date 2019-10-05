@@ -1,0 +1,45 @@
+.BlockSection {
+  background: rgb(9, 22, 73) none repeat scroll 0 0;
+  border-radius: 2px;
+  margin-bottom: 4px;
+  padding: 8px;
+  color: rgb(254, 192, 118);
+  border-color: transparent;
+  cursor: pointer;
+  // border: 1px solid;
+  letter-spacing: 1px;
+  font-weight: 700;
+  -webkit-transition: border-color 0.5s ease 0s;
+  -moz-transition: border-color 0.5s ease 0s;
+  -ms-transition: border-color 0.5s ease 0s;
+  -o-transition: border-color 0.5s ease 0s;
+  transition: border-color 0.5s ease 0s;
+}
+
+.BlockSection:hover {
+  background: rgb(9, 24, 132) none repeat scroll 0 0;
+}
+
+.BlockSectionLabel {
+  display: inline-block;
+  font-size: 24px;
+  margin: 5px 10px 5px 5px;
+  cursor: pointer;
+  vertical-align: middle;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+.BlockSectionContent:not(.open) {
+  display: none;
+}
+
+.BlockSectionContent:not(.closed) {
+  display: block;
+  background-color: rgb(28, 28, 28);
+  padding: 22px;
+  margin-bottom: 40px;
+  border: 1px solid rgb(58, 58, 58);
+  border-radius: 0 0 6px 6px;
+}

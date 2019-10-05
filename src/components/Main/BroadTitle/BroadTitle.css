@@ -1,0 +1,15 @@
+.BroadTitle {
+  font-size: 36px;
+  display: block;
+  margin: 18px 0;
+  font-weight: 700;
+  color: #ce6e27;
+  text-align: center;
+  cursor: pointer;
+  border-color: #ce6e27;
+  background: #0a0a0a none repeat scroll 0 0;
+  padding: 7px;
+  letter-spacing: 2px;
+  border-style: double none;
+}
+/*# sourceMappingURL=BroadTitle.css.map */

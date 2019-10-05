@@ -1,0 +1,68 @@
+/*.subsection {
+  font-size: 28px;
+}*/
+.Subsection:not(.open) {
+  display: none;
+  margin-bottom: 6px;
+  background: #091649 none repeat scroll 0 0;
+  border-radius: 2px;
+  color: #fec076;
+  cursor: pointer;
+  border: 1px solid;
+  border-color: transparent;
+  outline: currentColor none 0;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 16px;
+  -webkit-transition: 0.5s ease 0s;
+  transition: 0.5s ease 0s;
+}
+
+.Subsection:not(.closed) {
+  display: block;
+  background: #050505 none repeat scroll 0 0;
+  border-radius: 6px 6px 0 0;
+  color: #a38d6d;
+  cursor: pointer;
+  border: 1px solid;
+  outline: currentColor none 0;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 16px;
+  -webkit-transition: 0.5s ease 0s;
+  transition: 0.5s ease 0s;
+}
+
+.Subsection:not(.open):hover {
+  background: #091884 none repeat scroll 0 0;
+}
+
+.SubsectionLabel {
+  font-size: 26px;
+  display: inline-block;
+  margin: 5px 10px 5px 5px;
+  font-weight: 700;
+  cursor: pointer;
+  vertical-align: middle;
+  overflow: hidden;
+  white-space: nowrap;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.SubsectionBlockContent:not(.open) {
+  display: none;
+  background-color: #111111;
+  border: 1px solid #3a3a3a;
+  padding: 0 22px;
+}
+
+.SubsectionBlockContent:not(.closed) {
+  background-color: #111111;
+  display: block;
+  margin-bottom: 40px;
+  padding: 22px;
+  border: 1px solid #3a3a3a;
+  border-radius: 0 0 6px 6px;
+}
+/*# sourceMappingURL=Subsection.css.map */

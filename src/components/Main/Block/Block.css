@@ -1,0 +1,238 @@
+@font-face {
+  font-family: 'Fontin';
+  src: url("/src/assets/fonts/Fontin-Regular.ttf") format("truetype");
+}
+
+.VisualEditorDiv {
+  background: #050505 none repeat scroll 0 0;
+  border: 1px solid #424242;
+  border-radius: 2px;
+  margin: 15px 0;
+}
+
+.VisualEditorLabel {
+  font-size: 26px;
+  display: block;
+  margin: 7px 10px 12px 5px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.VisualEditorShowHideDiv {
+  display: inline-block;
+  float: left;
+  width: 135px;
+  height: 111px;
+  text-align: center;
+  position: relative;
+}
+
+.VisualButton:hover {
+  background-color: #0a0a0a;
+  -webkit-transition: 0.2s ease 0s;
+  transition: 0.2s ease 0s;
+}
+
+.VisualEditorShow, .VisualEditorHide {
+  margin: 11px 0;
+  width: 90px;
+  position: relative;
+  display: inline-block;
+  background: #1698bf none repeat scroll 0 0;
+  padding: 0.4em 1em;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 3px;
+  vertical-align: middle;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.VisualEditorContainerDiv {
+  position: relative;
+  padding: 5px;
+  border: 1px solid #a38d6d;
+  display: inline-block;
+  z-index: 5;
+  background: rgba(0, 0, 0, 0) url("/src/assets/img/PoEGround.PNG") no-repeat scroll center top/cover;
+}
+
+.VisualEditorShowCaseDiv {
+  width: 388px;
+  height: 98px;
+  display: inline-block;
+  border-radius: 0 1px 1px 0;
+  background-size: 100% auto;
+  text-align: center;
+  position: relative;
+  z-index: 5;
+}
+
+.VisualEditor_InnerItem {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  max-width: 1000px;
+  max-height: 600px;
+  padding: 5px;
+  margin: auto 0 auto 31px;
+  z-index: 10;
+  text-align: center;
+}
+
+.InnerItemContainer {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.ItemDiv {
+  background-color: #4b4b4b;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  border: 1px solid rgba(150, 150, 150, 0.8);
+  padding: 5px;
+  position: relative;
+  top: 40%;
+  text-align: center;
+}
+
+.ItemTextLabel {
+  font-size: 24px;
+  color: #888888;
+  z-index: 1;
+  vertical-align: sub;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Fontin;
+}
+
+/*.ItemSocketsDiv {
+
+}*/
+.VisualEditor_ComboBoxRight {
+  display: inline-block;
+  float: right;
+  position: relative;
+  z-index: 10;
+}
+
+.VisualEditor_ComboBoxLeft {
+  display: inline-block;
+  float: left;
+  width: 88px;
+  position: relative;
+  z-index: 100;
+}
+
+.disabledElement {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.55;
+}
+
+.VisualEditor_ComboBoxColorPickerDiv {
+  margin-bottom: 1px;
+  height: 32px;
+}
+
+.VisualEditor_ComboBoxLeftLabel {
+  display: inline-block;
+  width: 30px;
+  font-weight: 700;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.SpectrumColorPicker {
+  background: #1a1a1a none repeat scroll 0 0;
+  border: 1px solid #a38d6d;
+  margin: 2px;
+  padding: 4px;
+  vertical-align: middle;
+}
+
+.VisualEditor_ComboBoxEnabledColor {
+  display: inline-block;
+  width: 29px;
+  height: 29px;
+  position: absolute;
+  left: 86px;
+  margin-top: 1px;
+  vertical-align: middle;
+  pointer-events: all;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0) url("/src/assets/img/PoEGround.PNG") no-repeat scroll center top/contain;
+  z-index: 5;
+}
+
+.VisualEditor_ComboBoxRight {
+  display: inline-block;
+  float: right;
+  position: relative;
+  z-index: 10;
+  color: #a38d6d;
+}
+
+.VisualEditor_ComboBoxFontSizeSlider {
+  background: #000 none repeat scroll 0 0;
+  border: 1px solid #a38d6d;
+  color: #a38d6d;
+  width: 153px;
+  margin: 5px 13px 5px 11px !important;
+  display: inline-block;
+  border-radius: 1px;
+  font-size: 1em;
+  height: 0.8em;
+  position: relative;
+  text-align: left;
+}
+
+.FontSizeSliderHandle {
+  left: 66.6667%;
+  margin-left: -0.6em;
+  position: absolute;
+  min-width: 1.2em;
+  height: 1.2em;
+  -ms-touch-action: none;
+      touch-action: none;
+  z-index: 2;
+  text-align: center;
+  padding: 3px;
+  top: -7px !important;
+  font-weight: 700 !important;
+  background: #0f2d65 none repeat scroll 0 0;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 3px;
+  vertical-align: middle;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+}
+
+.VisualEditor_ComboBoxRight button, input {
+  -webkit-filter: drop-shadow(2px 2px 6px #000);
+          filter: drop-shadow(2px 2px 6px #000);
+  font-size: 13px;
+  margin-left: 8px;
+  margin-top: 7px;
+  padding: 5px;
+  width: 51px;
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  border: 1px solid #fff;
+  background: #0f2965 none repeat scroll 0 0;
+  font-weight: 700;
+  border-radius: 3px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Block.css.map */

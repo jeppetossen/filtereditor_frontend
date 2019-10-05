@@ -1,0 +1,24 @@
+/*#visual {
+  grid-area: main;
+  background-color: #0a0a0a;
+  width: 910px;
+  margin: 25px auto 20px;
+  border: 1px solid #a38d6d;
+  padding: 25px;
+  border-radius: 3px;
+  color: #a38d6d;
+  display: block;
+}*/
+
+#visual {
+  grid-area: 2 / 2 / 3 / 3;
+  /*background-color: #0a0a0a;*/
+  background-color: #f9f9f9;
+  width: 910px;
+  margin: 25px auto 25px;
+  border: 2px solid #a38d6d;
+  padding: 25px;
+  border-radius: 3px;
+  color: #a38d6d;
+  display: block;
+}
