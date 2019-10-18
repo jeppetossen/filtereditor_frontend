@@ -1,9 +1,11 @@
+import "core-js/stable"
+import "regenerator-runtime/runtime"
 import React from 'react'
 import { render } from 'react-dom'
 //import { BrowserRouter as Router } from 'react-router-dom'
 //import Root from './containers/Root'
 import './index.css'
-import App from './App.js'
+import App from './App'
 import configureStore from './store/configureStore'
 //import App from './containers/App'
 //import * as serviceWorker from './serviceWorker'

@@ -1,3 +1,6 @@
+//Loaders
+export const LOAD_SECTION = 'LOAD_SECTION'
+
 // Open/Close categories
 export const OPEN_SECTION = 'OPEN_SECTION'
 export const CLOSE_SECTION = 'CLOSE_SECTION'
@@ -8,7 +11,7 @@ export const CLOSE_BLOCKSECTION = 'CLOSE_BLOCKSECTION'
 export const OPEN_BLOCK = 'OPEN_BLOCK'
 export const CLOSE_BLOCK = 'CLOSE_BLOCK'
 
-// Settings for the visualeditor
+// Settings for the visual editor
 export const SHOW_BLOCK = 'SHOW_BLOCK'
 export const HIDE_BLOCK = 'HIDE_BLOCK'
 export const CUSTOM_TEXT_COLOR = 'CUSTOM_TEXT_COLOR'

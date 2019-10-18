@@ -1,10 +1,10 @@
 import { connect } from "react-redux";
 import BroadTitle from "../../components/Main/BroadTitle";
 import { loadSections } from '../../Actions/ActionCreators/LoadSections'
-import React from "react";
+import React, { useState } from "react";
 
 
-function Section(sections) {
+export function SectionTitle(sections) {
   const [display, setDisplayState] = useState(false)
 
   const ClickEvent = event => {

@@ -5,6 +5,8 @@ import Block from '../Block'
 
 import './Subsection.css'
 
+
+/*
 function BlockAndBlocksection(props) {
   if (props.subsection.editor === 'True') {
     return (
@@ -22,14 +24,15 @@ function BlockAndBlocksection(props) {
     })
   }
 }
-
+*/
+/*
 function Subsection(props) {
   const [active, setActiveState] = useState(false)
 
-  /*const ClickEvent = event => {
+  const ClickEvent = event => {
     let subsections = event.target
     console.log(subsections)
-  }*/
+  }
 
   return (
     <React.Fragment>
@@ -50,6 +53,36 @@ function Subsection(props) {
         <br></br>
         <div className={`SubsectionBlockContent ${active ? 'open' : 'closed'}`}>
           <BlockAndBlocksection subsection={props.subsection} />
+        </div>
+      </div>
+    </React.Fragment>
+  )
+}
+*/
+
+
+function Subsection(props) {
+  const [display, setDisplayState] = useState(false)
+
+  return (
+    <React.Fragment>
+      <div
+        className={`Subsection ${display ? 'open' : 'closed'}`}
+        onClick={e => {
+          //ClickEvent(e)
+          setDisplayState(!display)
+        }}
+      >
+        <label
+          key={props.section.uid}
+          id={'SubsectionLabel' + props.section.uid}
+          className='SubsectionLabel'
+        >
+          {props.section.name}
+        </label>
+        <br></br>
+        <div className={`SubsectionBlockContent ${!display ? 'open' : 'closed'}`}>
+          {/*<BlockAndBlocksection subsection={props.section} />*/}
         </div>
       </div>
     </React.Fragment>
