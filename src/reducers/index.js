@@ -1,17 +1,17 @@
 import { combineReducers } from 'redux'
 
-import section from './section'
-import subsection from './subsection'
-import blocksection from './blocksection'
-import block from './block'
-import blocksettings from './blocksettings'
+import sections from './sections'
+//import subsections from './subsections'
+//import blocksections from './blocksections'
+//import blocks from './blocks'
+//import blocksettings from './blocksettings'
 
 const rootReducer = combineReducers({
-  section,
-  subsection,
-  blocksection,
-  block,
-  blocksettings
+  sections,
+  //subsections,
+  //blocksections,
+  //blocks,
+  //blocksettings
 })
 
 export default rootReducer

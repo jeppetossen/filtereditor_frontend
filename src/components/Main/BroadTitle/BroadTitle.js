@@ -3,7 +3,7 @@ import React, {useState} from 'react'
 import './BroadTitle.css'
 
 
-function BroadTitle(sections) {
+function BroadTitle({ id, name }) {
   const [display, setDisplayState] = useState(false)
 
   const ClickEvent = event => {
@@ -16,6 +16,20 @@ function BroadTitle(sections) {
     setDisplayState(!display)
   }
 
+  return (
+    <React.Fragment>
+      <label
+        key={id}
+        id={'BroadTitle' + id}
+        className={`BroadTitle ${display ? 'open': 'closed'}`}
+        onClick={e => ClickEvent(e)}
+      >
+        {name}
+      </label>
+    </React.Fragment>
+  )
+
+  /*
   return (
     <React.Fragment>
       {sections.map(section => {
@@ -31,7 +45,7 @@ function BroadTitle(sections) {
         )
       })}
     </React.Fragment>
-  )
+  )*/
 }
 
 /*

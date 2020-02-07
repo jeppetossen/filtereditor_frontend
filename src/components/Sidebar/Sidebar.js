@@ -1,11 +1,16 @@
 import React from 'react'
 
-import data from '../../api/headers'
+//import data from '../../api/headers'
 
 import './Sidebar.css'
 
 function Sidebar () {
   return (
+    <div className="sidebar">
+      sidebar
+    </div>
+  )
+  /*return (
     <div className='sidebar'>
       {data.sections.map((section) => {
         return (
@@ -20,7 +25,7 @@ function Sidebar () {
         )
       })}
     </div>
-  )
+  )*/
 }
 
 export default Sidebar

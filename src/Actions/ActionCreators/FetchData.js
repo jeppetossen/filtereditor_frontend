@@ -10,7 +10,7 @@ export const fetchData = () => {
         dispatch(fetchDataSuccess(res.json()))
       })
       .catch(err => {
-        dispatch(fetchDataFailure(err.messageFetch))
+        dispatch(fetchDataFailure(err.message))
       })
   }
 }

@@ -1,4 +1,4 @@
-//Loaders
+//vLoaders
 export const LOAD_SECTION = 'LOAD_SECTION'
 
 // Open/Close categories
@@ -12,6 +12,7 @@ export const OPEN_BLOCK = 'OPEN_BLOCK'
 export const CLOSE_BLOCK = 'CLOSE_BLOCK'
 
 // Settings for the visual editor
+// TODO: Add the remaining settings
 export const SHOW_BLOCK = 'SHOW_BLOCK'
 export const HIDE_BLOCK = 'HIDE_BLOCK'
 export const CUSTOM_TEXT_COLOR = 'CUSTOM_TEXT_COLOR'
@@ -24,7 +25,7 @@ export const COPY_BLOCK = 'COPY_BLOCK'
 export const PASTE_BLOCK = 'PASTE_BLOCK'
 export const RESET_BLOCK = 'RESET_BLOCK'
 
-//Fetching from /api/headers
+//vFetching from /headers/<header_file.json>
 export const DATA_REQUESTED = 'DATA_REQUESTED'
 export const DATA_RETRIEVED = 'DATA_RETRIEVED'
 export const DATA_FAILED = 'DATA_FAILED'

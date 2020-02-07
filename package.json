@@ -2,10 +2,6 @@
   "name": "filtereditor_frontend",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "npm": "6.11.3",
-    "node": "12.11.1"
-  },
   "dependencies": {
     "@babel/preset-react": "^7.6.3",
     "core-js": "^3.2.1",

@@ -1,7 +1,5 @@
 import * as types from '../constants/actionTypes'
 
-export const loadSection = section => ({type: types.LOAD_SECTION, section})
-
 export const openSection = element => ({type: types.OPEN_SECTION, element})
 export const closeSection = element => ({type: types.CLOSE_SECTION, element})
 export const openSubsection = element => ({type: types.OPEN_SUBSECTION, element})
