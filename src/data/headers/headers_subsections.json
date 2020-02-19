@@ -1,0 +1,165 @@
+{
+  "apiVersion": 0.1,
+  "data": {
+    "updated": "",
+    "totalItems": 0,
+    "headers": [
+      {
+        "id": 2,
+        "name": "Vendor Recipes",
+        "domain": "General",
+        "parent": "General"
+      },
+      {
+        "id": 25,
+        "name": "Chancing Bases",
+        "domain": "General",
+        "parent": "General"
+      },
+      {
+        "id": 29,
+        "name": "Currency",
+        "domain": "General",
+        "parent": "General"
+      },
+      {
+        "id": 41,
+        "name": "Divination Cards",
+        "domain": "General",
+        "parent": "General"
+      },
+      {
+        "id": 47,
+        "name": "Unique Items",
+        "domain": "General",
+        "parent": "General"
+      },
+      {
+        "id": 54,
+        "name": "Current League: Betrayal",
+        "domain": "General",
+        "parent": "General"
+      },
+      {
+        "id": 62,
+        "name": "Maps",
+        "domain": "Endgame - General",
+        "parent": "Endgame - General"
+      },
+      {
+        "id": 92,
+        "name": "Fragments",
+        "domain": "Endgame - General",
+        "parent": "Endgame - General"
+      },
+      {
+        "id": 99,
+        "name": "Special Bases",
+        "domain": "Endgame - General",
+        "parent": "Endgame - General"
+      },
+      {
+        "id": 119,
+        "name": "Crafting Bases",
+        "domain": "Endgame - Drops",
+        "parent": "Endgame - Drops"
+      },
+      {
+        "id": 135,
+        "name": "T1 & T2 Bases",
+        "domain": "Endgame - Drops",
+        "parent": "Endgame - Drops"
+      },
+      {
+        "id": 150,
+        "name": "T3 & T4 Bases",
+        "domain": "Endgame - Drops",
+        "parent": "Endgame - Drops"
+      },
+      {
+        "id": 199,
+        "name": "Shaper & Elder Items",
+        "domain": "Endgame - Drops",
+        "parent": "Endgame - Drops"
+      },
+      {
+        "id": 235,
+        "name": "Abyss League",
+        "domain": "League-Specific Items",
+        "parent": "League-Specific Items"
+      },
+      {
+        "id": 246,
+        "name": "Delve League",
+        "domain": "League-Specific Items",
+        "parent": "League-Specific Items"
+      },
+      {
+        "id": 259,
+        "name": "Breach League",
+        "domain": "League-Specific Items",
+        "parent": "League-Specific Items"
+      },
+      {
+        "id": 266,
+        "name": "Incursion League",
+        "domain": "League-Specific Items",
+        "parent": "League-Specific Items"
+      },
+      {
+        "id": 276,
+        "name": "Prophecy League",
+        "domain": "League-Specific Items",
+        "parent": "League-Specific Items"
+      },
+      {
+        "id": 280,
+        "name": "Other Leagues",
+        "domain": "League-Specific Items",
+        "parent": "League-Specific Items"
+      },
+      {
+        "id": 313,
+        "name": "Skill Gems",
+        "domain": "Miscellaneous",
+        "parent": "Miscellaneous"
+      },
+      {
+        "id": 325,
+        "name": "Misc. Items",
+        "domain": "Miscellaneous",
+        "parent": "Miscellaneous"
+      },
+      {
+        "id": 329,
+        "name": "Valuable Linked Items",
+        "domain": "Miscellaneous",
+        "parent": "Miscellaneous"
+      },
+      {
+        "id": 333,
+        "name": "Item Progression",
+        "domain": "Leveling",
+        "parent": "Leveling"
+      },
+      {
+        "id": 340,
+        "name": "Colors & Links",
+        "domain": "Leveling",
+        "parent": "Leveling"
+      },
+      {
+        "id": 360,
+        "name": "Rares",
+        "domain": "Leveling",
+        "parent": "Leveling"
+      },
+      {
+        "id": 369,
+        "name": "Finetuning",
+        "domain": "Leveling",
+        "parent": "Leveling"
+      }
+    ]
+  }
+}

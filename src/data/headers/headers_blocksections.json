@@ -1,0 +1,561 @@
+{
+  "apiVersion": 0.1,
+  "data": {
+    "updated": "",
+    "totalItems": 0,
+    "headers": [
+      {
+        "id": 3,
+        "name": "Chromatic Orb",
+        "domain": "General",
+        "parent": "Vendor Recipes"
+      },
+      {
+        "id": 8,
+        "name": "Jeweller Orbs",
+        "domain": "General",
+        "parent": "Vendor Recipes"
+      },
+      {
+        "id": 11,
+        "name": "Gemcutter's Prism",
+        "domain": "General",
+        "parent": "Vendor Recipes"
+      },
+      {
+        "id": 15,
+        "name": "Cartographer's Chisel",
+        "domain": "General",
+        "parent": "Vendor Recipes"
+      },
+      {
+        "id": 19,
+        "name": "Glassblower's Bauble",
+        "domain": "General",
+        "parent": "Vendor Recipes"
+      },
+      {
+        "id": 23,
+        "name": "Loreweave",
+        "domain": "General",
+        "parent": "Vendor Recipes"
+      },
+      {
+        "id": 55,
+        "name": "Veiled Mods",
+        "domain": "General",
+        "parent": "Current League: Betrayal"
+      },
+      {
+        "id": 57,
+        "name": "Scarabs",
+        "domain": "General",
+        "parent": "Current League: Betrayal"
+      },
+      {
+        "id": 63,
+        "name": "Specific Maps",
+        "domain": "Endgame - General",
+        "parent": "Maps"
+      },
+      {
+        "id": 66,
+        "name": "Map Properties",
+        "domain": "Endgame - General",
+        "parent": "Maps"
+      },
+      {
+        "id": 71,
+        "name": "Tier Specific Settings",
+        "domain": "Endgame - General",
+        "parent": "Maps"
+      },
+      {
+        "id": 75,
+        "name": "Appearance",
+        "domain": "Endgame - General",
+        "parent": "Maps"
+      },
+      {
+        "id": 88,
+        "name": "Unique Maps",
+        "domain": "Endgame - General",
+        "parent": "Maps"
+      },
+      {
+        "id": 100,
+        "name": "Atlas Exclusive",
+        "domain": "Endgame - General",
+        "parent": "Special Bases"
+      },
+      {
+        "id": 110,
+        "name": "Regular Jewels",
+        "domain": "Endgame - General",
+        "parent": "Special Bases"
+      },
+      {
+        "id": 113,
+        "name": "Corrupted Items",
+        "domain": "Endgame - General",
+        "parent": "Special Bases"
+      },
+      {
+        "id": 115,
+        "name": "White Socket Items",
+        "domain": "Endgame - General",
+        "parent": "Special Bases"
+      },
+      {
+        "id": 120,
+        "name": "Level 86+ Jewellery",
+        "domain": "Endgame - Drops",
+        "parent": "Crafting Bases"
+      },
+      {
+        "id": 123,
+        "name": "Level 86+",
+        "domain": "Endgame - Drops",
+        "parent": "Crafting Bases"
+      },
+      {
+        "id": 126,
+        "name": "Level 83/84 Jewellery",
+        "domain": "Endgame - Drops",
+        "parent": "Crafting Bases"
+      },
+      {
+        "id": 129,
+        "name": "Level 83-85",
+        "domain": "Endgame - Drops",
+        "parent": "Crafting Bases"
+      },
+      {
+        "id": 136,
+        "name": "Tier 1 Rares",
+        "domain": "Endgame - Drops",
+        "parent": "T1 & T2 Bases"
+      },
+      {
+        "id": 141,
+        "name": "Tier 2 Rares",
+        "domain": "Endgame - Drops",
+        "parent": "T1 & T2 Bases"
+      },
+      {
+        "id": 147,
+        "name": "Jewellery",
+        "domain": "Endgame - Drops",
+        "parent": "T1 & T2 Bases"
+      },
+      {
+        "id": 151,
+        "name": "Daggers",
+        "domain": "Endgame - Drops",
+        "parent": "T3 & T4 Bases"
+      },
+      {
+        "id": 154,
+        "name": "Wands",
+        "domain": "Endgame - Drops",
+        "parent": "T3 & T4 Bases"
+      },
+      {
+        "id": 157,
+        "name": "Sceptres",
+        "domain": "Endgame - Drops",
+        "parent": "T3 & T4 Bases"
+      },
+      {
+        "id": 160,
+        "name": "Claws",
+        "domain": "Endgame - Drops",
+        "parent": "T3 & T4 Bases"
+      },
+      {
+        "id": 163,
+        "name": "Foils",
+        "domain": "Endgame - Drops",
+        "parent": "T3 & T4 Bases"
+      },
+      {
+        "id": 166,
+        "name": "1H-Swords",
+        "domain": "Endgame - Drops",
+        "parent": "T3 & T4 Bases"
+      },
+      {
+        "id": 169,
+        "name": "1H-Maces",
+        "domain": "Endgame - Drops",
+        "parent": "T3 & T4 Bases"
+      },
+      {
+        "id": 172,
+        "name": "1H-Axes",
+        "domain": "Endgame - Drops",
+        "parent": "T3 & T4 Bases"
+      },
+      {
+        "id": 175,
+        "name": "Staves",
+        "domain": "Endgame - Drops",
+        "parent": "T3 & T4 Bases"
+      },
+      {
+        "id": 178,
+        "name": "Two-Handed Weapons",
+        "domain": "Endgame - Drops",
+        "parent": "T3 & T4 Bases"
+      },
+      {
+        "id": 181,
+        "name": "Bows",
+        "domain": "Endgame - Drops",
+        "parent": "T3 & T4 Bases"
+      },
+      {
+        "id": 184,
+        "name": "Gloves, Boots, Helmets",
+        "domain": "Endgame - Drops",
+        "parent": "T3 & T4 Bases"
+      },
+      {
+        "id": 188,
+        "name": "Body Armours",
+        "domain": "Endgame - Drops",
+        "parent": "T3 & T4 Bases"
+      },
+      {
+        "id": 191,
+        "name": "Shields",
+        "domain": "Endgame - Drops",
+        "parent": "T3 & T4 Bases"
+      },
+      {
+        "id": 196,
+        "name": "Quivers",
+        "domain": "Endgame - Drops",
+        "parent": "T3 & T4 Bases"
+      },
+      {
+        "id": 200,
+        "name": "Shaper Items: Top Tier Bases",
+        "domain": "Endgame - Drops",
+        "parent": "Shaper & Elder Items"
+      },
+      {
+        "id": 202,
+        "name": "Shaper Items: Tier 1 Bases:",
+        "domain": "Endgame - Drops",
+        "parent": "Shaper & Elder Items"
+      },
+      {
+        "id": 206,
+        "name": "Shaper Items: Tier 1 Classes:",
+        "domain": "Endgame - Drops",
+        "parent": "Shaper & Elder Items"
+      },
+      {
+        "id": 208,
+        "name": "Shaper Items: Tier 2 Bases:",
+        "domain": "Endgame - Drops",
+        "parent": "Shaper & Elder Items"
+      },
+      {
+        "id": 212,
+        "name": "Shaper Items: Tier 2 Classes:",
+        "domain": "Endgame - Drops",
+        "parent": "Shaper & Elder Items"
+      },
+      {
+        "id": 214,
+        "name": "Shaper Items: Tier 3 (remaining)",
+        "domain": "Endgame - Drops",
+        "parent": "Shaper & Elder Items"
+      },
+      {
+        "id": 217,
+        "name": "Elder Items: Top Tier Bases",
+        "domain": "Endgame - Drops",
+        "parent": "Shaper & Elder Items"
+      },
+      {
+        "id": 219,
+        "name": "Elder Items: Tier 1 Bases:",
+        "domain": "Endgame - Drops",
+        "parent": "Shaper & Elder Items"
+      },
+      {
+        "id": 223,
+        "name": "Elder Items: Tier 1 Classes:",
+        "domain": "Endgame - Drops",
+        "parent": "Shaper & Elder Items"
+      },
+      {
+        "id": 225,
+        "name": "Elder Items: Tier 2 Bases:",
+        "domain": "Endgame - Drops",
+        "parent": "Shaper & Elder Items"
+      },
+      {
+        "id": 229,
+        "name": "Elder Items: Tier 2 Classes:",
+        "domain": "Endgame - Drops",
+        "parent": "Shaper & Elder Items"
+      },
+      {
+        "id": 231,
+        "name": "Elder Items: Tier 3 (remaining)",
+        "domain": "Endgame - Drops",
+        "parent": "Shaper & Elder Items"
+      },
+      {
+        "id": 236,
+        "name": "Abyss Jewels",
+        "domain": "League-Specific Items",
+        "parent": "Abyss League"
+      },
+      {
+        "id": 241,
+        "name": "Stygian Vise",
+        "domain": "League-Specific Items",
+        "parent": "Abyss League"
+      },
+      {
+        "id": 247,
+        "name": "Resonators",
+        "domain": "League-Specific Items",
+        "parent": "Delve League"
+      },
+      {
+        "id": 251,
+        "name": "Fossils",
+        "domain": "League-Specific Items",
+        "parent": "Delve League"
+      },
+      {
+        "id": 256,
+        "name": "Delve Mods",
+        "domain": "League-Specific Items",
+        "parent": "Delve League"
+      },
+      {
+        "id": 260,
+        "name": "Splinters",
+        "domain": "League-Specific Items",
+        "parent": "Breach League"
+      },
+      {
+        "id": 263,
+        "name": "Blessings",
+        "domain": "League-Specific Items",
+        "parent": "Breach League"
+      },
+      {
+        "id": 267,
+        "name": "Stone of Passage",
+        "domain": "League-Specific Items",
+        "parent": "Incursion League"
+      },
+      {
+        "id": 269,
+        "name": "Vials",
+        "domain": "League-Specific Items",
+        "parent": "Incursion League"
+      },
+      {
+        "id": 272,
+        "name": "Mods",
+        "domain": "League-Specific Items",
+        "parent": "Incursion League"
+      },
+      {
+        "id": 281,
+        "name": "Reliquary Keys",
+        "domain": "League-Specific Items",
+        "parent": "Other Leagues"
+      },
+      {
+        "id": 283,
+        "name": "Essences",
+        "domain": "League-Specific Items",
+        "parent": "Other Leagues"
+      },
+      {
+        "id": 291,
+        "name": "Talismans",
+        "domain": "League-Specific Items",
+        "parent": "Other Leagues"
+      },
+      {
+        "id": 293,
+        "name": "Perandus Coins",
+        "domain": "League-Specific Items",
+        "parent": "Other Leagues"
+      },
+      {
+        "id": 297,
+        "name": "Harbinger Currency",
+        "domain": "League-Specific Items",
+        "parent": "Other Leagues"
+      },
+      {
+        "id": 300,
+        "name": "Bestiary",
+        "domain": "League-Specific Items",
+        "parent": "Other Leagues"
+      },
+      {
+        "id": 307,
+        "name": "Warbands",
+        "domain": "League-Specific Items",
+        "parent": "Other Leagues"
+      },
+      {
+        "id": 309,
+        "name": "Leaguestones",
+        "domain": "League-Specific Items",
+        "parent": "Other Leagues"
+      },
+      {
+        "id": 314,
+        "name": "Top Gems",
+        "domain": "Miscellaneous",
+        "parent": "Skill Gems"
+      },
+      {
+        "id": 317,
+        "name": "Gem Tiers",
+        "domain": "Miscellaneous",
+        "parent": "Skill Gems"
+      },
+      {
+        "id": 321,
+        "name": "Leveled Gems",
+        "domain": "Miscellaneous",
+        "parent": "Skill Gems"
+      },
+      {
+        "id": 334,
+        "name": "Progression 1",
+        "domain": "Leveling",
+        "parent": "Item Progression"
+      },
+      {
+        "id": 336,
+        "name": "Progression 2",
+        "domain": "Leveling",
+        "parent": "Item Progression"
+      },
+      {
+        "id": 338,
+        "name": "Progression 3",
+        "domain": "Leveling",
+        "parent": "Item Progression"
+      },
+      {
+        "id": 341,
+        "name": "Chromatic Recipe Items",
+        "domain": "Leveling",
+        "parent": "Colors & Links"
+      },
+      {
+        "id": 346,
+        "name": "Desired Socketgroups",
+        "domain": "Leveling",
+        "parent": "Colors & Links"
+      },
+      {
+        "id": 348,
+        "name": "4-Linked: Chromatic",
+        "domain": "Leveling",
+        "parent": "Colors & Links"
+      },
+      {
+        "id": 350,
+        "name": "4-Linked: General",
+        "domain": "Leveling",
+        "parent": "Colors & Links"
+      },
+      {
+        "id": 354,
+        "name": "3-Linked: General",
+        "domain": "Leveling",
+        "parent": "Colors & Links"
+      },
+      {
+        "id": 358,
+        "name": "3-Linked: Caster",
+        "domain": "Leveling",
+        "parent": "Colors & Links"
+      },
+      {
+        "id": 361,
+        "name": "Jewellery",
+        "domain": "Leveling",
+        "parent": "Rares"
+      },
+      {
+        "id": 363,
+        "name": "Boots",
+        "domain": "Leveling",
+        "parent": "Rares"
+      },
+      {
+        "id": 365,
+        "name": "Small Armours",
+        "domain": "Leveling",
+        "parent": "Rares"
+      },
+      {
+        "id": 367,
+        "name": "Caster Weapons",
+        "domain": "Leveling",
+        "parent": "Rares"
+      },
+      {
+        "id": 370,
+        "name": "Act 1",
+        "domain": "Leveling",
+        "parent": "Finetuning"
+      },
+      {
+        "id": 375,
+        "name": "Act 2, 3",
+        "domain": "Leveling",
+        "parent": "Finetuning"
+      },
+      {
+        "id": 377,
+        "name": "Act 4, 5, 6",
+        "domain": "Leveling",
+        "parent": "Finetuning"
+      },
+      {
+        "id": 379,
+        "name": "Highlight: Early Boots",
+        "domain": "Leveling",
+        "parent": "Finetuning"
+      },
+      {
+        "id": 381,
+        "name": "Quiver Progression",
+        "domain": "Leveling",
+        "parent": "Finetuning"
+      },
+      {
+        "id": 386,
+        "name": "First Levels: Normal Items",
+        "domain": "Leveling",
+        "parent": "Finetuning"
+      },
+      {
+        "id": 390,
+        "name": "Early Levels: Magic Items",
+        "domain": "Leveling",
+        "parent": "Finetuning"
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+    "apiVersion": 0.1,
+    "data": {
+        "updated": "",
+        "totalItems": 0,
+        "headers": [
+            {
+                "id": 1,
+                "name": "General"
+            },
+            {
+                "id": 61,
+                "name": "Endgame - General"
+            },
+            {
+                "id": 118,
+                "name": "Endgame - Drops"
+            },
+            {
+                "id": 234,
+                "name": "League-Specific Items"
+            },
+            {
+                "id": 312,
+                "name": "Miscellaneous"
+            },
+            {
+                "id": 332,
+                "name": "Leveling"
+            }
+        ]
+    }
+}
