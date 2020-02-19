@@ -1,12 +1,12 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 import './Block.css'
 
-function Block(props) {
+const Block = props => {
   return (
-    <div className={`VisualEditorDiv`}>
+    <div key={props.block.id} className={`VisualEditorDiv`}>
       <label className='VisualEditorLabel'>{props.block.name}</label>
-      <div id={'VisualEditorOuterMainContainer_' + props.block.uid}>
+      <div id={'VisualEditorOuterMainContainer_' + props.block.id}>
         <div className='VisualEditorShowHideDiv'>
           <button className='VisualEditorShow VisualButton'>Show</button>
           <button className='VisualEditorHide VisualButton'>Hide</button>
@@ -16,7 +16,7 @@ function Block(props) {
             <div className='VisualEditor_ComboBoxFontSizeSlider'>
               <div className='FontSizeSliderHandle VisualButton'>36</div>
             </div>
-            <br />
+            <br/>
             <button className='VisualEditor_ComboBoxRight_Button VisualButton'>
               Copy
             </button>
@@ -26,7 +26,7 @@ function Block(props) {
             <button className='VisualEditor_ComboBoxRight_Button VisualButton'>
               Reset
             </button>
-            <br />
+            <br/>
             <input
               className='VisualEditor_ComboBoxRight_Button VisualButton'
               type='button'
@@ -46,7 +46,7 @@ function Block(props) {
               <input
                 type='text'
                 className='SpectrumColorPicker'
-                style={{ display: 'none' }}
+                style={{display: 'none'}}
               />
               <div className='sp-replacer sp-light'>
                 <div className='sp-preview'>
@@ -60,7 +60,7 @@ function Block(props) {
               <label className='VisualEditor_ComboBoxLeftLabel'>BD</label>
               <input
                 className='SpectrumColorPicker'
-                style={{ display: 'none' }}
+                style={{display: 'none'}}
               />
               <div className='sp-replacer sp-light'>
                 <div className='sp-preview'>
@@ -74,7 +74,7 @@ function Block(props) {
               <label className='VisualEditor_ComboBoxLeftLabel'>BG</label>
               <input
                 className='SpectrumColorPicker'
-                style={{ display: 'none' }}
+                style={{display: 'none'}}
               />
               <div className='sp-replacer sp-light'>
                 <div className='sp-preview'>
@@ -89,16 +89,14 @@ function Block(props) {
               <div className='InnerItemContainer'>
                 <div className='ItemDiv'>
                   <label className='ItemTextLabel'>Item Name</label>
-                  {/*<div id="ItemSocketsDiv_{{ block.id }}" className="ItemSocketsDiv">
-
-                                        </div>*/}
+                  {/*<div id="ItemSocketsDiv_{{ block.id }}" className="ItemSocketsDiv"></div>*/}
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <br />
+      <br/>
     </div>
   )
 }

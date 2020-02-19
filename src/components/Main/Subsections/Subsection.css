@@ -1,27 +1,19 @@
-/*.subsection {
-  font-size: 28px;
-}*/
-.Subsection:not(.open) {
-  display: none;
+.SubsectionWrapper {
+  pointer-events: auto; }
+
+.SubsectionWrapper:not(.visible) {
+  display: none; }
+
+/*
+.SubsectionWrapper:not(visible):hover {
+  background: rgb(9, 24, 132) none repeat scroll 0 0;
+}
+*/
+.SubsectionWrapper.visible {
+  display: block;
   margin-bottom: 6px;
   background: #091649 none repeat scroll 0 0;
   border-radius: 2px;
-  color: #fec076;
-  cursor: pointer;
-  border: 1px solid;
-  border-color: transparent;
-  outline: currentColor none 0;
-  letter-spacing: 1px;
-  font-weight: 700;
-  padding: 16px;
-  -webkit-transition: 0.5s ease 0s;
-  transition: 0.5s ease 0s;
-}
-
-.Subsection:not(.closed) {
-  display: block;
-  background: #050505 none repeat scroll 0 0;
-  border-radius: 6px 6px 0 0;
   color: #a38d6d;
   cursor: pointer;
   border: 1px solid;
@@ -30,12 +22,27 @@
   font-weight: 700;
   padding: 16px;
   -webkit-transition: 0.5s ease 0s;
-  transition: 0.5s ease 0s;
-}
+  -moz-transition: 0.5s ease 0s;
+  -ms-transition: 0.5s ease 0s;
+  -o-transition: 0.5s ease 0s;
+  transition: 0.5s ease 0s; }
 
-.Subsection:not(.open):hover {
-  background: #091884 none repeat scroll 0 0;
-}
+.SubsectionWrapper.open {
+  display: block;
+  background: #050505 none repeat scroll 0 0;
+  border-radius: 6px 6px 0 0;
+  color: #fec076;
+  cursor: pointer;
+  border-color: transparent;
+  outline: currentColor none 0;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 16px;
+  -webkit-transition: 0.5s ease 0s;
+  -moz-transition: 0.5s ease 0s;
+  -ms-transition: 0.5s ease 0s;
+  -o-transition: 0.5s ease 0s;
+  transition: 0.5s ease 0s; }
 
 .SubsectionLabel {
   font-size: 26px;
@@ -47,22 +54,17 @@
   overflow: hidden;
   white-space: nowrap;
   color: white;
-  letter-spacing: 1px;
-}
+  letter-spacing: 1px; }
 
-.SubsectionBlockContent:not(.open) {
+.SubsectionBlockContent:not(.visible) {
   display: none;
   background-color: #111111;
   border: 1px solid #3a3a3a;
-  padding: 0 22px;
-}
+  padding: 0 22px; }
 
-.SubsectionBlockContent:not(.closed) {
+.SubsectionBlockContent.visible {
   background-color: #111111;
   display: block;
-  margin-bottom: 40px;
-  padding: 22px;
+  padding: 2px;
   border: 1px solid #3a3a3a;
-  border-radius: 0 0 6px 6px;
-}
-/*# sourceMappingURL=Subsection.css.map */
+  border-radius: 0 0 6px 6px; }

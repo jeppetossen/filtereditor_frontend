@@ -1,7 +1,7 @@
 .BlockSection {
   background: #091649 none repeat scroll 0 0;
   border-radius: 2px;
-  margin-bottom: 4px;
+  margin-bottom: 2px;
   padding: 8px;
   color: #fec076;
   border-color: transparent;
@@ -9,12 +9,13 @@
   letter-spacing: 1px;
   font-weight: 700;
   -webkit-transition: border-color 0.5s ease 0s;
-  transition: border-color 0.5s ease 0s;
-}
+  -moz-transition: border-color 0.5s ease 0s;
+  -ms-transition: border-color 0.5s ease 0s;
+  -o-transition: border-color 0.5s ease 0s;
+  transition: border-color 0.5s ease 0s; }
 
 .BlockSection:hover {
-  background: #091884 none repeat scroll 0 0;
-}
+  background: #091884 none repeat scroll 0 0; }
 
 .BlockSectionLabel {
   display: inline-block;
@@ -24,19 +25,15 @@
   vertical-align: middle;
   overflow: hidden;
   white-space: nowrap;
-  color: #ffffff;
-}
+  color: #ffffff; }
 
 .BlockSectionContent:not(.open) {
-  display: none;
-}
+  display: none; }
 
 .BlockSectionContent:not(.closed) {
   display: block;
   background-color: #1c1c1c;
-  padding: 22px;
-  margin-bottom: 40px;
+  padding: 2px;
+  margin-bottom: 20px;
   border: 1px solid #3a3a3a;
-  border-radius: 0 0 6px 6px;
-}
-/*# sourceMappingURL=BlockSection.css.map */
+  border-radius: 0 0 6px 6px; }

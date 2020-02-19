@@ -1,36 +1,50 @@
 import React, { useState } from 'react'
+import { connect } from 'react-redux'
 
 import Block from '../Block'
 
 import './BlockSection.css'
 
 function BlockSection(props) {
-  const [active, setActiveState] = useState(false)
+  const [display, setDisplay] = useState(false)
+
+  /*const ClickEvent = event => {
+    let element = event.target;
+    let
+  }*/
 
   return (
     <React.Fragment>
       <div
-        className={`BlockSection ${active ? 'open' : 'closed'}`}
-        onClick={e => setActiveState(!active)}
+        key={props.block_section.id}
+        className={`BlockSection ${display ? 'open' : 'closed'}`}
+        onClick={e => setDisplay(!display)}
       >
         <label
-          key={props.blocksection.uid}
-          id={'BlockSectionLabel' + props.blocksection.uid}
+          id={'BlockSectionLabel' + props.block_section.id}
           className='BlockSectionLabel'
         >
-          {props.blocksection.name}
+          {props.block_section.name}
         </label>
       </div>
       <div
-        className={`BlockSectionContent ${active ? 'open' : 'closed'}`}
-        onClick={() => setActiveState(!active)}
+        className={`BlockSectionContent ${display ? 'open' : 'closed'}`}
+        //onClick={() => setDisplay(!display)}
       >
-        {props.blocksection.blocks.map(block => {
-          return <Block block={block} />
+        {props.blocks.map(block => {
+          if (props.block_section.name === block.parent) {
+            return <Block block={block} />
+          } else return null
         })}
       </div>
     </React.Fragment>
   )
 }
 
-export default BlockSection
+export default connect(
+  state => ({
+    blocks: state.blocks
+  }),
+  dispatch => ({})
+)(BlockSection)
+

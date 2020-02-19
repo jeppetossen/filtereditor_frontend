@@ -11,14 +11,15 @@ import configureStore from './store/configureStore'
 //import * as serviceWorker from './serviceWorker'
 import { Provider } from 'react-redux'
 
-const store = configureStore()
+
+const store = configureStore();
 
 render(
   <Provider store={store}>
-    <App />
+    <App />,
   </Provider>,
   document.getElementById('root')
-)
+);
 
 //ReactDOM.render(<App />, document.getElementById('root'))
 

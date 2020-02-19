@@ -1,28 +1,37 @@
-import React, {useLayoutEffect, useEffect, useState} from 'react';
+/*
+import React from 'react';
+import { connect } from "react-redux";
 
 import Subsection from '../../components/Main/Subsection';
 import BroadTitle from '../../components/Main/BroadTitle';
-import useFetch from "../../api/useFetch";
 
+import './Main.css'
 
+const Main = (props) => {
+  return (
+    <div id='visual'>
+      {props.sections.map(section => {
+        return (
+          <div key={section.id} className='section-container'>
+            <BroadTitle id={section.id} name={section.name}/>
+            <Subsection section={section.name}/>
+          </div>
+        )
+      })}
+    </div>
+  )
+}
+
+export default connect(
+  state => ({
+    sections: state.sections
+  }),
+  dispatch => ({})
+)(Main)
+*/
+/*
 function Main() {
   const [data, setData] = useState([]);
-
-  useEffect(() => {
-    if (data.length === 0) {
-      fetch('http://0.0.0.0:8000/headers/headers_sections.json')
-      .then(res => res.json())
-      .then(res => {
-        if (res.error) {
-          throw(res.error);
-        }
-          setData(res.data.headers);
-      })
-      .catch(error => {
-        setData(error)
-      })
-    }
-  })
 
   if (!data) {
     return (
@@ -47,3 +56,4 @@ function Main() {
 }
 
 export default Main
+*/

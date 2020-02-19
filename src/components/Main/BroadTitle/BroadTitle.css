@@ -11,5 +11,4 @@
   padding: 7px;
   letter-spacing: 2px;
   border-style: double none;
-}
-/*# sourceMappingURL=BroadTitle.css.map */
+  pointer-events: auto; }

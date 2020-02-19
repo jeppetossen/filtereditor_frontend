@@ -1,7 +1,7 @@
 .BlockSection {
   background: rgb(9, 22, 73) none repeat scroll 0 0;
   border-radius: 2px;
-  margin-bottom: 4px;
+  margin-bottom: 2px;
   padding: 8px;
   color: rgb(254, 192, 118);
   border-color: transparent;
@@ -38,8 +38,8 @@
 .BlockSectionContent:not(.closed) {
   display: block;
   background-color: rgb(28, 28, 28);
-  padding: 22px;
-  margin-bottom: 40px;
+  padding: 2px;
+  margin-bottom: 20px;
   border: 1px solid rgb(58, 58, 58);
   border-radius: 0 0 6px 6px;
 }
