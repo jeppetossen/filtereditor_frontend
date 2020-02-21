@@ -1,31 +1,22 @@
-/*
-.visual-wrapper {
-  grid-area: 2 / 2 / 3 / 3;
-}
-*/
-
 .main-wrapper {
-  //grid-area: 2 / 2 / 4 / 3;
-  //display: flex;
-
   /*
-  display: grid;
-  grid-template-columns: 1fr 0.4fr repeat(2, 1fr);
-  grid-template-rows: 0fr 0fr;
-  grid-column-gap: 4px;
-  grid-row-gap: 4px;
-  */
-
   display: grid;
   grid-template-columns: 0fr repeat(3, 1fr);
   grid-template-rows: 0fr 0fr;
   grid-column-gap: 4px;
   grid-row-gap: 4px;
+  */
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  //grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: 0fr 0fr;
+  grid-column-gap: 4px;
+  grid-row-gap: 4px;
 }
 
 .visual-wrapper {
-  //grid-area: 2 / 2 / 3 / 3;
-  grid-area: 2 / 3 / 3 / 4;
+  //grid-area: 2 / 3 / 3 / 4;
+  grid-area: 3 / 3 / 4 / 4;
   display: flex;
   flex-direction: row;
 }

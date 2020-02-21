@@ -2,10 +2,9 @@ import React from 'react'
 import {connect} from 'react-redux'
 
 import './Sections.css'
-import {selectedSection} from "../../../Actions/selected_section";
+import {selectedSectionAction as selectedSection} from "../../../Actions/selected_section";
 
 const Sections = ({sections, selected_section}) => {
-  console.log(selected_section)
   return (
     <div className="sections-wrapper">
       <ul className="sections">

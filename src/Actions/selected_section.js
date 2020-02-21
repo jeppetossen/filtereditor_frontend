@@ -1,14 +1,8 @@
 import {
-  OPEN_SECTION,
-  CLOSE_SECTION
+  SELECT_SECTION,
 } from "../constants/actionTypes";
 
-export const selectedSection = (section) => ({
-  type: OPEN_SECTION,
-  section
-})
-
-export const deselectSection = (section) => ({
-  type: CLOSE_SECTION,
+export const selectedSectionAction = (section) => ({
+  type: SELECT_SECTION,
   section
 })

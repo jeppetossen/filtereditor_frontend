@@ -1,6 +1,8 @@
 import { combineReducers } from 'redux'
 
-import selected_section from './selected_sections'
+import selectedSection from './selected_sections'
+import selectedSubsection from "./selected_subsection";
+import selectedBlocksection from "./selected_blocksection";
 
 import sections_json from '../data/headers/headers_sections.json'
 import subsections_json from '../data/headers/headers_subsections.json'
@@ -15,7 +17,7 @@ const subsections = (state = subsections_json.data.headers) => {
   return state
 }
 
-const blocksections = (state = blocksections_json.data.headers) => {
+const block_sections = (state = blocksections_json.data.headers) => {
   return state
 }
 
@@ -24,10 +26,12 @@ const blocks = (state = blocks_json.data.headers) => {
 }
 
 const rootReducer = combineReducers({
-  selected_section,
+  selectedSection,
+  selectedSubsection,
+  selectedBlocksection,
   sections,
   subsections,
-  blocksections,
+  block_sections,
   blocks,
   //editorSettings
 })

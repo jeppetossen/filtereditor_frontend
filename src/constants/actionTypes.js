@@ -1,8 +1,10 @@
-//vLoaders
+// Loaders
 export const LOAD_SECTION = 'LOAD_SECTION'
 
 // Open/Close categories
-export const SELECTED_SECTION = 'SELECTED_SECTION'
+export const SELECT_SECTION = 'SELECT_SECTION'
+export const SELECT_SUBSECTION = 'SELECT_SUBSECTION'
+export const SELECT_BLOCKSECTION = 'SELECT_BLOCKSECTION'
 export const OPEN_SECTION = 'OPEN_SECTION'
 export const CLOSE_SECTION = 'CLOSE_SECTION'
 export const OPEN_SUBSECTION = 'OPEN_SUBSECTION'

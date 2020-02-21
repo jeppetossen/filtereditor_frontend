@@ -1,5 +1,8 @@
-.sidebar-wrapper {
-  grid-area: 2 / 2 / 3 / 3; }
+.left_sidebar-wrapper {
+  grid-area: 3 / 2 / 4 / 3; }
+
+.right_sidebar-wrapper {
+  grid-area: 3 / 4 / 4 / 5; }
 
 .sidebar {
   display: flex;
@@ -19,6 +22,7 @@
   transition: ease 0.1s; }
   .SidebarSection:hover {
     background-color: #000;
+    cursor: pointer;
     opacity: 1;
     color: #ce6e27;
     transition: ease 0.5s; }

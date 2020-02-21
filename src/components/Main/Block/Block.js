@@ -2,11 +2,11 @@ import React from 'react'
 
 import './Block.css'
 
-const Block = props => {
+const Block = ({block}) => {
   return (
-    <div key={props.block.id} className={`VisualEditorDiv`}>
-      <label className='VisualEditorLabel'>{props.block.name}</label>
-      <div id={'VisualEditorOuterMainContainer_' + props.block.id}>
+    <div key={block.id} className={`VisualEditorDiv`}>
+      <label className='VisualEditorLabel'>{block.name}</label>
+      <div id={'VisualEditorOuterMainContainer_' + block.id}>
         <div className='VisualEditorShowHideDiv'>
           <button className='VisualEditorShow VisualButton'>Show</button>
           <button className='VisualEditorHide VisualButton'>Hide</button>

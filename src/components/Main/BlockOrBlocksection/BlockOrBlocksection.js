@@ -8,7 +8,7 @@ const BlockAndBlocksection = props => {
   return (
     <React.Fragment>
       <React.Fragment>
-        {props.blocksections.map(block_section => {
+        {props.block_sections.map(block_section => {
           if (props.subsection.name === block_section.parent) {
             return <BlockSection block_section={block_section}/>
           } else return null
@@ -27,7 +27,7 @@ const BlockAndBlocksection = props => {
 
 export default connect(
   state => ({
-    blocksections: state.blocksections,
+    block_sections: state.block_sections,
     blocks: state.blocks
   }),
   dispatch => ({})
